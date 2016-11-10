@@ -18,6 +18,13 @@ Or install it yourself as:
 
     $ gem install geo_linker
 
+## Scripts
+```ruby
+rails geo_linker:install_fias
+rake db:migrate
+rake geo_linker:parser:import
+rake geo_linker:parser:update
+```
 ## Usage
 
 TODO: Write usage instructions here
