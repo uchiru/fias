@@ -1,6 +1,6 @@
 # GeoLinker
 
-It's help your to add FIAS to any projects
+It helps your to add FIAS to any project
 
 ## Installation
 
