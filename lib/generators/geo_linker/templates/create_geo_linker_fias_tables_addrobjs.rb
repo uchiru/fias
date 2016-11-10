@@ -1,4 +1,4 @@
-class GeoLinkerFiasTablesAddrobjs < ActiveRecord::Migration
+class CreateGeoLinkerFiasTablesAddrobjs < ActiveRecord::Migration
   def change
     create_table :geo_linker_fias_tables_addrobjs, id: false do |f|
       f.string :aoid, primary: true
