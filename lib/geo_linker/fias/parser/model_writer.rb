@@ -1,4 +1,4 @@
-module GeoLinker::Fias::Parser::ModelUpdater
+module GeoLinker::Fias::Parser
   class ModelWriter
     attr_reader :model, :current_attributes
 
@@ -15,7 +15,7 @@ module GeoLinker::Fias::Parser::ModelUpdater
       if GC.respond_to?(:copy_on_write_friendly=)
         GC.copy_on_write_friendly = true
       end
-      @current_primary_key = { Addrobj => 'aoid' }[model]
+      @current_primary_key = { ::GeoLinker::Fias::Tables::Addrobj => 'aoid' }[model]
 
       @created_count = 0
       @failed_count = 0
