@@ -1,4 +1,4 @@
-module GeoLinker::FIAS::Parser::Tools
+module GeoLinker::Fias::Parser::Tools
   def retrive_xml_link(options = {})
     client = Savon.client(wsdl: "http://fias.nalog.ru/WebServices/Public/DownloadService.asmx?WSDL")
     responce = client.call(:get_last_download_file_info).body[:get_last_download_file_info_response][:get_last_download_file_info_result]
@@ -66,7 +66,7 @@ module GeoLinker::FIAS::Parser::Tools
 
   def handle_model_parsing(parameters, model_handler)
     (p("Cannot find xml file for addrobjs, dir files list: #{parameters[:total].join("\n")}"); exit) if parameters[:fias_addrobj].nil?
-    NokogiriParse.new(parameters[:fias_addrobj], model_handler.new(Addrobj), 'Object')
+    NokogiriParser.new(parameters[:fias_addrobj], model_handler.new(Addrobj), 'Object')
     p "Parsed all addrobjs, see log/ directory for log file"
   end
 end

@@ -1,4 +1,4 @@
-module GeoLinker::FIAS::Parser::ModelUpdater
+module GeoLinker::Fias::Parser::ModelUpdater
   class ModelWriter
     attr_reader :model, :current_attributes
 

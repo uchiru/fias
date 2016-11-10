@@ -1,6 +1,3 @@
-require 'savon'
-require 'progressbar'
-
 namespace :geo_linker do
   namespace :parser do
     desc 'Retrieve last actual xml from official site and parse addrobjs and houses into db'

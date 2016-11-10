@@ -1,4 +1,4 @@
-module GeoLinker::FIAS::Parser::ModelUpdater
+module GeoLinker::Fias::Parser::ModelUpdater
   class ModelUpdater < ModelWriter
     def initialize(model)
       super(model)

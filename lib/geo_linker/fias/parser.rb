@@ -1,4 +1,4 @@
-module GeoLinker::FIAS
+module GeoLinker::Fias
   module Parser
     require "geo_linker/fias/parser/model_writer"
     require "geo_linker/fias/parser/model_updater"

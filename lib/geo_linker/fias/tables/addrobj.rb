@@ -1,6 +1,6 @@
-module GeoLinker::FIAS::Tables
+module GeoLinker::Fias::Tables
   class Addrobj < ActiveRecord::Base
-    self.table_name = 'fias_addrobjs'
+    self.table_name = 'geo_linker_fias_tables_addrobjs'
     self.primary_key = 'aoid'
 
     default_scope { where livestatus: "1" }
