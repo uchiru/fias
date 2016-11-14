@@ -1,6 +1,7 @@
 module GeoLinker::Fias::Tables
   class Addrobj < ActiveRecord::Base
-    self.table_name = 'geo_linker_fias_tables_addrobjs'
+    #self.table_name = 'geo_linker_fias_tables_addrobjs'
+    self.table_name = 'fias_addrobjs'
     self.primary_key = 'aoid'
 
     default_scope { where livestatus: "1" }
@@ -23,9 +24,12 @@ module GeoLinker::Fias::Tables
       primary_key: 'aoguid'
 
     scope :regions, -> { where(aolevel: "1") }
-    scope :cities, -> (region_code, query, with_regions = nil) {
+    scope :cities, -> (with_regions = nil) {
       level_filter = with_regions ? CITIES_LEVEL + REGIONS_LEVEL : CITIES_LEVEL
-      where(regioncode: region_code, aolevel: level_filter).
+      where(aolevel: level_filter)
+    }
+    scope :cities_query, -> (region_code, query, with_regions = nil) {
+      cities(with_regions).where(regioncode: region_code).
         where("formalname ILIKE ? OR (shortname || ' ' || formalname) ILIKE ? ", "#{query}%", "#{query}%")
     }
 
