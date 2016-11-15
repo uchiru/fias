@@ -19,8 +19,9 @@ And then execute:
 ```ruby
 rails generate geo_linker:install_fias
 rake db:migrate
-rake geo_linker:parser:import
-rake geo_linker:parser:update
+rake geo_linker:download
+rake geo_linker:import
+rake geo_linker:update
 ```
 ## Usage
 
