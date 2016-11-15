@@ -72,7 +72,7 @@ module GeoLinker::Fias::Parser::Tools
 
   def handle_model_parsing(parameters, model_handler)
     (p("Cannot find xml file for addrobjs, dir files list: #{parameters[:total].join("\n")}"); exit) if parameters[:fias_addrobj].nil?
-    NokogiriDocument.new(parameters[:fias_addrobj], model_handler.new(::GeoLinker::Fias::Tables::Addrobj), 'Object')
+    NokogiriDocument.new(parameters[:fias_addrobj], model_handler.new(), 'Object')
     p "Parsed all addrobjs, see log/ directory for log file"
   end
 end

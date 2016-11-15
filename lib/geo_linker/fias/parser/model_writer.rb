@@ -7,15 +7,15 @@ module GeoLinker::Fias::Parser
 
     QUEUE_COUNT_IN_PART = QUEUE_LENGTH_FOR_FORK / QUEUE_PARTS
 
-    def initialize(model)
-      @model = model
+    def initialize
+      @model = GeoLinker::Region
       @logger = Logger.new("#{Rails.root}/log/#{model}_Update_#{Time.now.to_i}.log")
       @start_time = Time.now
 
       if GC.respond_to?(:copy_on_write_friendly=)
         GC.copy_on_write_friendly = true
       end
-      @current_primary_key = { ::GeoLinker::Fias::Tables::Addrobj => 'aoid' }[model]
+      @current_primary_key = 'guid'
 
       @created_count = 0
       @failed_count = 0
@@ -28,21 +28,39 @@ module GeoLinker::Fias::Parser
     def fork_and_iterate(queue, &block)
       queue_parts = queue.each_slice(QUEUE_COUNT_IN_PART).to_a
       QUEUE_PARTS.times do |part_number|
-        Process.fork do
-          ActiveRecord::Base.connection.disconnect!
-          config = Rails.application.config.database_configuration[Rails.env]
-          ActiveRecord::Base.establish_connection(config)
-          queue_part = queue_parts[part_number]
-          exit if (queue_part).nil?
-          @model.transaction do
-            queue_part.each do |obj|
-              yield(obj)
+        ActiveRecord::Base.connection.disconnect!
+        config = Rails.application.config.database_configuration[Rails.env]
+        ActiveRecord::Base.establish_connection(config)
+        queue_part = queue_parts[part_number]
+        exit if (queue_part).nil?
+        queue_part.group_by { |q| q[:models_level]}.each do |group, arr|
+          if group == :both
+            GeoLinker::Region.transaction do
+              arr.each do |obj|
+                yield(obj)
+              end
+            end
+            GeoLinker::City.transaction do
+              arr.each do |obj|
+                yield(obj)
+              end
+            end
+          elsif group == :region
+            GeoLinker::Region.transaction do
+              arr.each do |obj|
+                yield(obj)
+              end
+            end
+          else
+            GeoLinker::City.transaction do
+              arr.each do |obj|
+                yield(obj)
+              end
             end
           end
-          exit
         end
+        exit
       end
-      Process.waitall
     end
 
     def fork_and_write
@@ -56,7 +74,10 @@ module GeoLinker::Fias::Parser
 
     def create_or_update_object(attributes)
       if updating_object = (model.unscoped.find(attributes[@current_primary_key]) rescue nil)
-
+        if attributes[:models_level] == :both
+          attributes[:is_city] = true
+        end
+        attributes = attributes.delete(:models_level)
         updating_object.attributes = attributes
         changes = updating_object.changes
 
@@ -83,11 +104,27 @@ module GeoLinker::Fias::Parser
     end
 
     def create_attributes(attrs)
+      attrs_h = attrs.to_h
       @current_attributes = {}
-      attrs.map do |mass|
-        attr_name = mass[0].downcase
-        next unless model.attribute_names.include?(attr_name)
-        @current_attributes[attr_name] = mass[1]
+      rules = {
+        aoid: :id,
+        aoguid: :guid,
+        formalname: :formal_name,
+        shortname: :short_name,
+        regioncode: :region_code,
+        offname: :official_name,
+        aolevel: :level,
+        livestatus: :live_status
+      }
+      rules.each do |fias_attr, model_attr|
+        @current_attributes[model_attr.to_s] = attrs_h[fias_attr.to_s.upcase]
+      end
+      if attrs_h["AOLEVEL"] == "1" && attrs_h["SHORTNAME"] == "г"
+        @current_attributes[:models_level] = :both
+      elsif attrs_h["AOLEVEL"] == "1" && attrs_h["SHORTNAME"] != "г"
+        @current_attributes[:models_level] = :region
+      else
+        @current_attributes[:models_level] = :city
       end
     rescue PG::Error => e
       @logger.error(e.message)
@@ -106,11 +143,9 @@ module GeoLinker::Fias::Parser
 
     def make_last_in_query!
       fork_and_write if @main_queue.length > 0
-
     end
 
     def end_parse
-
       make_last_in_query!
       @logger.info("Finished, created: #{@created_count}, failed: #{@failed_count}")
     end

@@ -8,7 +8,8 @@ module GeoLinker
 
     desc "This generator creates (but does not run) a migration to add a geo_linker_fias_addrobjs table"
     def create_migration_file
-      add_geo_linker_migration("create_geo_linker_fias_tables_addrobjs")
+      add_geo_linker_migration("create_geo_linker_regions")
+      add_geo_linker_migration("create_geo_linker_cities")
     end
 
     def self.next_migration_number(dirname)
