@@ -1,4 +1,4 @@
-require 'fias/fias/parser/tools/nokogiri_document'
+require 'fias/parser/tools/nokogiri_document'
 require 'savon'
 require 'progressbar'
 
