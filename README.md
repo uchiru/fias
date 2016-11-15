@@ -7,20 +7,17 @@ It helps your to add FIAS to any project
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'geo_linker'
+gem 'geo_linker', git: 'git@github.com:uchiru/geo_linker.git'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install geo_linker
 
 ## Scripts
 ```ruby
-rails geo_linker:install_fias
+rails generate geo_linker:install_fias
 rake db:migrate
 rake geo_linker:parser:import
 rake geo_linker:parser:update
