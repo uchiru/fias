@@ -74,11 +74,12 @@ module GeoLinker::Fias::Parser
     end
 
     def create_or_update_object(attributes)
+      if attributes[:models_level] == :both
+        attributes[:is_city] = true
+      end
+      attributes.delete(:models_level)
+
       if updating_object = (@model.unscoped.find(attributes[@current_primary_key]) rescue nil)
-        if attributes[:models_level] == :both
-          attributes[:is_city] = true
-        end
-        attributes.delete(:models_level)
         updating_object.attributes = attributes
         changes = updating_object.changes
 
@@ -90,10 +91,6 @@ module GeoLinker::Fias::Parser
           @logger.error("Failed to update #{model}, #{updating_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
         end
       else
-        if attributes[:models_level] == :both
-          attributes[:is_city] = true
-        end
-        attributes.delete(:models_level)
         @model.create(attributes)
         @created_count += 1
         @logger.info("Created new #{model}: #{@current_primary_key}: #{attributes[@current_primary_key]}")
