@@ -1,6 +1,6 @@
-require 'progressbar'
 require 'geo_linker/fias/parser/tools/nokogiri_document'
 require 'savon'
+require 'progressbar'
 
 module GeoLinker::Fias::Parser::Tools
   def retrive_xml_link(options = {})
