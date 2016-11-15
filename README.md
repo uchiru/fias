@@ -1,4 +1,4 @@
-# GeoLinker
+# Fias
 
 It helps your to add FIAS to any project
 
@@ -7,7 +7,7 @@ It helps your to add FIAS to any project
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'geo_linker', git: 'git@github.com:uchiru/geo_linker.git'
+gem 'fias', git: 'git@github.com:uchiru/fias.git'
 ```
 
 And then execute:
@@ -17,12 +17,12 @@ And then execute:
 ## Scripts
 
 ```shell
-rails generate geo_linker:install # Сгенерировать миграции
+rails generate fias:install # Сгенерировать миграции
 rake db:migrate # Мигрировать
-rake geo_linker:download # Скачать ФИАС архивом
-rake geo_linker:download[.] # Скачать ФИАС архивом в указанную папку
-rake geo_linker:import # Импортировать ФИАС себе в базу
-rake geo_linker:update # Пока не работает
+rake fias:download # Скачать ФИАС архивом
+rake fias:download[.] # Скачать ФИАС архивом в указанную папку
+rake fias:import # Импортировать ФИАС себе в базу
+rake fias:update # Пока не работает
 ```
 ## Usage
 

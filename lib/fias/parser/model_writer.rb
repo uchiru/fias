@@ -1,4 +1,4 @@
-module GeoLinker::Fias::Parser
+module Fias::Parser
   class ModelWriter
     attr_reader :model, :current_attributes
 
@@ -8,7 +8,7 @@ module GeoLinker::Fias::Parser
     QUEUE_COUNT_IN_PART = QUEUE_LENGTH_FOR_FORK / QUEUE_PARTS
 
     def initialize
-      @model = GeoLinker::Region
+      @model = Fias::Region
       @logger = Logger.new("#{Rails.root}/log/#{model}_Update_#{Time.now.to_i}.log")
       @start_time = Time.now
 
@@ -35,23 +35,23 @@ module GeoLinker::Fias::Parser
           exit if (queue_part).nil?
           queue_part.group_by { |q| q[:models_level]}.each do |group, arr|
             if group.in? [:both, :region]
-              GeoLinker::Region.transaction do
-                @model = GeoLinker::Region
+              Fias::Region.transaction do
+                @model = Fias::Region
                 arr.each do |obj|
                   yield(obj)
                 end
               end
               if group == :both
-                GeoLinker::City.transaction do
-                  @model = GeoLinker::City
+                Fias::City.transaction do
+                  @model = Fias::City
                   arr.each do |obj|
                     yield(obj)
                   end
                 end
               end
             else
-              GeoLinker::City.transaction do
-                @model = GeoLinker::City
+              Fias::City.transaction do
+                @model = Fias::City
                 arr.each do |obj|
                   yield(obj)
                 end

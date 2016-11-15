@@ -1,8 +1,8 @@
-require 'geo_linker/fias/parser/tools/nokogiri_document'
+require 'fias/fias/parser/tools/nokogiri_document'
 require 'savon'
 require 'progressbar'
 
-module GeoLinker::Fias::Parser::Tools
+module Fias::Parser::Tools
   extend self
 
   # Get URL of FIAS database
@@ -78,7 +78,7 @@ module GeoLinker::Fias::Parser::Tools
   # Parse extracted FIAS database and import it into project
   #
   def import(result)
-    handle_model_parsing(result, GeoLinker::Fias::Parser::ModelWriter)
+    handle_model_parsing(result, Fias::Parser::ModelWriter)
   end
 
   def handle_model_parsing(parameters, model_handler)

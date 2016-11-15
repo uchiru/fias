@@ -1,10 +1,10 @@
 # coding: utf-8
 $:.push File.expand_path("../lib", __FILE__)
 
-require 'geo_linker/version'
+require 'fias/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "geo_linker"
+  spec.name          = "fias"
   spec.version       = GeoLinker::VERSION
   spec.authors       = ["Dmitry Korotin"]
   spec.email         = ["soxat73rus@gmail.com"]

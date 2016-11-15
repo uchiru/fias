@@ -1,12 +1,13 @@
-class CreateGeoLinkerCities < ActiveRecord::Migration
+class CreateFiasRegions < ActiveRecord::Migration
   def change
-    create_table :geo_linker_cities, id: false do |f|
+    create_table :fias_regions, id: false do |f|
       f.string :id
       f.string :guid, primary: true
       f.string :short_name
       f.string :formal_name
       f.string :region_code
       f.string :official_name
+      f.boolean :is_city
       f.string :level
       f.string :live_status
 
