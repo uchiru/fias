@@ -21,50 +21,47 @@ module GeoLinker::Fias::Parser
       @failed_count = 0
       @updated_count = 0
       @main_queue = []
-
     end
-
 
     def fork_and_iterate(queue, &block)
       queue_parts = queue.each_slice(QUEUE_COUNT_IN_PART).to_a
       QUEUE_PARTS.times do |part_number|
-        ActiveRecord::Base.connection.disconnect!
-        config = Rails.application.config.database_configuration[Rails.env]
-        ActiveRecord::Base.establish_connection(config)
-        queue_part = queue_parts[part_number]
-        exit if (queue_part).nil?
-        queue_part.group_by { |q| q[:models_level]}.each do |group, arr|
-          if group == :both
-            GeoLinker::Region.transaction do
-              @model = GeoLinker::Region
-              arr.each do |obj|
-                yield(obj)
+        Process.fork do
+          ActiveRecord::Base.connection.disconnect!
+          config = Rails.application.config.database_configuration[Rails.env]
+          ActiveRecord::Base.establish_connection(config)
+          queue_part = queue_parts[part_number]
+
+          exit if (queue_part).nil?
+          queue_part.group_by { |q| q[:models_level]}.each do |group, arr|
+            if group.in? [:both, :region]
+              GeoLinker::Region.transaction do
+                @model = GeoLinker::Region
+                arr.each do |obj|
+                  yield(obj)
+                end
               end
-            end
-            GeoLinker::City.transaction do
-              @model = GeoLinker::City
-              arr.each do |obj|
-                yield(obj)
+              if group == :both
+                GeoLinker::City.transaction do
+                  @model = GeoLinker::City
+                  arr.each do |obj|
+                    yield(obj)
+                  end
+                end
               end
-            end
-          elsif group == :region
-            GeoLinker::Region.transaction do
-              @model = GeoLinker::Region
-              arr.each do |obj|
-                yield(obj)
-              end
-            end
-          else
-            GeoLinker::City.transaction do
-              @model = GeoLinker::City
-              arr.each do |obj|
-                yield(obj)
+            else
+              GeoLinker::City.transaction do
+                @model = GeoLinker::City
+                arr.each do |obj|
+                  yield(obj)
+                end
               end
             end
           end
+          exit
         end
-        exit
       end
+      Process.waitall
     end
 
     def fork_and_write
