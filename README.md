@@ -14,14 +14,15 @@ And then execute:
 
     $ bundle
 
-
 ## Scripts
-```ruby
-rails generate geo_linker:install_fias
-rake db:migrate
-rake geo_linker:download
-rake geo_linker:import
-rake geo_linker:update
+
+```shell
+rails generate geo_linker:install # Сгенерировать миграции
+rake db:migrate # Мигрировать
+rake geo_linker:download # Скачать ФИАС архивом
+rake geo_linker:download[.] # Скачать ФИАС архивом в указанную папку
+rake geo_linker:import # Импортировать ФИАС себе в базу
+rake geo_linker:update # Пока не работает
 ```
 ## Usage
 
