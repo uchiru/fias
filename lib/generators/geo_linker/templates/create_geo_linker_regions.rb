@@ -7,8 +7,8 @@ class CreateGeoLinkerRegions < ActiveRecord::Migration
       f.string :formal_name
       f.string :region_code
       f.string :official_name
-      f.string :is_city
-      f.boolean :level
+      f.boolean :is_city
+      f.string :level
       f.string :live_status
 
       f.timestamps
