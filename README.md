@@ -20,8 +20,9 @@ And then execute:
 rails generate fias:install # Сгенерировать миграции
 rake db:migrate # Мигрировать
 rake fias:download # Скачать ФИАС архивом
-rake fias:download[.] # Скачать ФИАС архивом в указанную папку
+rake fias:download[.] # Скачать ФИАС архивом в указанную папку (по умолчанию в tmp)
 rake fias:import # Импортировать ФИАС себе в базу
+rake fias:import[fias_xml.rar] # Импортировать ФИАС себе в базу из указанного файла
 rake fias:update # Пока не работает
 ```
 ## Usage
