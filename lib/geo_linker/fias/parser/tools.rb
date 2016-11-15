@@ -1,4 +1,5 @@
 require 'geo_linker/fias/parser/tools/nokogiri_document'
+require 'savon'
 
 module GeoLinker::Fias::Parser::Tools
   def retrive_xml_link(options = {})
