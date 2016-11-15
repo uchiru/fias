@@ -5,7 +5,7 @@ require 'fias/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fias"
-  spec.version       = GeoLinker::VERSION
+  spec.version       = Fias::VERSION
   spec.authors       = ["Dmitry Korotin"]
   spec.email         = ["soxat73rus@gmail.com"]
 
