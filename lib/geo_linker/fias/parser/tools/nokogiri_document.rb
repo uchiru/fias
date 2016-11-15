@@ -19,7 +19,6 @@ module GeoLinker::Fias::Parser::Tools
 
     def start_element(name, attrs = [])
       return unless name.to_s.eql?(@obj_tag)
-      byebug
       @handler.create_attributes(attrs)
     end
 

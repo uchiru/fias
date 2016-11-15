@@ -36,23 +36,27 @@ module GeoLinker::Fias::Parser
         queue_part.group_by { |q| q[:models_level]}.each do |group, arr|
           if group == :both
             GeoLinker::Region.transaction do
+              @model = GeoLinker::Region
               arr.each do |obj|
                 yield(obj)
               end
             end
             GeoLinker::City.transaction do
+              @model = GeoLinker::City
               arr.each do |obj|
                 yield(obj)
               end
             end
           elsif group == :region
             GeoLinker::Region.transaction do
+              @model = GeoLinker::Region
               arr.each do |obj|
                 yield(obj)
               end
             end
           else
             GeoLinker::City.transaction do
+              @model = GeoLinker::City
               arr.each do |obj|
                 yield(obj)
               end
@@ -73,11 +77,11 @@ module GeoLinker::Fias::Parser
     end
 
     def create_or_update_object(attributes)
-      if updating_object = (model.unscoped.find(attributes[@current_primary_key]) rescue nil)
+      if updating_object = (@model.unscoped.find(attributes[@current_primary_key]) rescue nil)
         if attributes[:models_level] == :both
           attributes[:is_city] = true
         end
-        attributes = attributes.delete(:models_level)
+        attributes.delete(:models_level)
         updating_object.attributes = attributes
         changes = updating_object.changes
 
@@ -89,14 +93,18 @@ module GeoLinker::Fias::Parser
           @logger.error("Failed to update #{model}, #{updating_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
         end
       else
-        model.create(attributes)
+        if attributes[:models_level] == :both
+          attributes[:is_city] = true
+        end
+        attributes.delete(:models_level)
+        @model.create(attributes)
         @created_count += 1
         @logger.info("Created new #{model}: #{@current_primary_key}: #{attributes[@current_primary_key]}")
       end
     rescue Exception => e
-      @logger.error("Error in #{model}, #{@current_primary_key}: #{attributes[@current_primary_key]}, #{e.message}")
+      @logger.error("Error in #{@model}, #{@current_primary_key}: #{attributes[@current_primary_key]}, #{e.message}")
       @failed_count += 1
-      @logger.error("Failed in #{model}, on #{@current_primary_key}: #{attributes[@current_primary_key]}, attributes: #{attributes.inspect}")
+      @logger.error("Failed in #{@model}, on #{@current_primary_key}: #{attributes[@current_primary_key]}, attributes: #{attributes.inspect}")
     end
 
     def formated_changes(changes)
