@@ -33,7 +33,6 @@ namespace :geo_linker do
     ActiveRecord::Base.establish_connection(config)
     # Парсер валится с ошибкой подключения к PostgreSQL
     # 24..26 строчки кода, призваны решить эту проблему
-    FiasAddrobj.unscoped.delete_all(livestatus: "0")
   end
 
   desc 'Retrieve delta xml from site, extract and update databases'
@@ -58,6 +57,5 @@ namespace :geo_linker do
     ActiveRecord::Base.establish_connection(config)
     # Парсер валится с ошибкой подключения к PostgreSQL
     # 49..51 строчки кода, призваны решить эту проблему
-    FiasAddrobj.unscoped.delete_all(livestatus: "0")
   end
 end
