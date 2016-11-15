@@ -17,12 +17,6 @@ namespace :geo_linker do
       file = download()
     end
     import(extract(file))
-
-    ActiveRecord::Base.connection.disconnect!
-    config = Rails.application.config.database_configuration[Rails.env]
-    ActiveRecord::Base.establish_connection(config)
-    # Парсер валится с ошибкой подключения к PostgreSQL
-    # 24..26 строчки кода, призваны решить эту проблему
   end
 
   # desc 'Retrieve last actual xml from official site and parse addrobjs and houses into db'
