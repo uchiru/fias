@@ -1,3 +1,4 @@
+require 'progressbar'
 module GeoLinker::Fias::Parser::Tools
   class NokogiriDocument < Nokogiri::XML::SAX::Document
     attr_reader :io, :progress, :logger, :handler, :obj_tag

@@ -1,3 +1,4 @@
+require 'progressbar'
 require 'geo_linker/fias/parser/tools/nokogiri_document'
 require 'savon'
 
