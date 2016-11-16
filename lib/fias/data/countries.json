@@ -1,0 +1,5945 @@
+{
+  "895": {
+    "name": "Абхазия",
+    "full_name": "Республика Абхазия",
+    "english": "Abkhazia",
+    "alpha2": "AB",
+    "alpha3": "ABH",
+    "iso": "895",
+    "location": "Азия",
+    "location_precise": "Закавказье",
+    "time_zones": {
+      "Europe/Moscow": "Москва (MSK)"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Moscow"
+      ]
+    }
+  },
+  "36": {
+    "name": "Австралия",
+    "full_name": "",
+    "english": "Australia",
+    "alpha2": "AU",
+    "alpha3": "AUS",
+    "iso": "036",
+    "location": "Океания",
+    "location_precise": "Австралия и Новая Зеландия",
+    "time_zones": {
+      "Australia/Lord_Howe": "Australia/Lord_Howe",
+      "Antarctica/Macquarie": "Antarctica/Macquarie",
+      "Australia/Hobart": "Australia/Hobart",
+      "Australia/Currie": "Australia/Currie",
+      "Australia/Melbourne": "Australia/Melbourne",
+      "Australia/Sydney": "Australia/Sydney",
+      "Australia/Broken_Hill": "Australia/Broken_Hill",
+      "Australia/Brisbane": "Australia/Brisbane",
+      "Australia/Lindeman": "Australia/Lindeman",
+      "Australia/Adelaide": "Australia/Adelaide",
+      "Australia/Darwin": "Australia/Darwin",
+      "Australia/Perth": "Australia/Perth",
+      "Australia/Eucla": "Australia/Eucla"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Australia/Lord_Howe",
+        "Antarctica/Macquarie",
+        "Australia/Hobart",
+        "Australia/Currie",
+        "Australia/Melbourne",
+        "Australia/Sydney",
+        "Australia/Broken_Hill",
+        "Australia/Brisbane",
+        "Australia/Lindeman",
+        "Australia/Adelaide",
+        "Australia/Darwin",
+        "Australia/Perth",
+        "Australia/Eucla"
+      ]
+    }
+  },
+  "40": {
+    "name": "Австрия",
+    "full_name": "Австрийская Республика",
+    "english": "Austria",
+    "alpha2": "AT",
+    "alpha3": "AUT",
+    "iso": "040",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Vienna": "Europe/Vienna"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Vienna"
+      ]
+    }
+  },
+  "31": {
+    "name": "Азербайджан",
+    "full_name": "Республика Азербайджан",
+    "english": "Azerbaijan",
+    "alpha2": "AZ",
+    "alpha3": "AZE",
+    "iso": "031",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Baku": "Asia/Baku"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Baku"
+      ]
+    }
+  },
+  "8": {
+    "name": "Албания",
+    "full_name": "Республика Албания",
+    "english": "Albania",
+    "alpha2": "AL",
+    "alpha3": "ALB",
+    "iso": "008",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Tirane": "Europe/Tirane"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Tirane"
+      ]
+    }
+  },
+  "12": {
+    "name": "Алжир",
+    "full_name": "Алжирская Народная Демократическая Республика",
+    "english": "Algeria",
+    "alpha2": "DZ",
+    "alpha3": "DZA",
+    "iso": "012",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Algiers": "Africa/Algiers"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Algiers"
+      ]
+    }
+  },
+  "16": {
+    "name": "Американское Самоа",
+    "full_name": "",
+    "english": "American Samoa",
+    "alpha2": "AS",
+    "alpha3": "ASM",
+    "iso": "016",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Pago_Pago": "Pacific/Pago_Pago"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Pago_Pago"
+      ]
+    }
+  },
+  "660": {
+    "name": "Ангилья",
+    "full_name": "",
+    "english": "Anguilla",
+    "alpha2": "AI",
+    "alpha3": "AIA",
+    "iso": "660",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "24": {
+    "name": "Ангола",
+    "full_name": "Республика Ангола",
+    "english": "Angola",
+    "alpha2": "AO",
+    "alpha3": "AGO",
+    "iso": "024",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "20": {
+    "name": "Андорра",
+    "full_name": "Княжество Андорра",
+    "english": "Andorra",
+    "alpha2": "AD",
+    "alpha3": "AND",
+    "iso": "020",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Andorra": "Europe/Andorra"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Andorra"
+      ]
+    }
+  },
+  "10": {
+    "name": "Антарктида",
+    "full_name": "",
+    "english": "Antarctica",
+    "alpha2": "AQ",
+    "alpha3": "ATA",
+    "iso": "010",
+    "location": "Антарктика",
+    "location_precise": "",
+    "time_zones": {
+      "Antarctica/Rothera": "Antarctica/Rothera",
+      "Antarctica/Palmer": "Antarctica/Palmer",
+      "Antarctica/Mawson": "Antarctica/Mawson",
+      "Antarctica/Davis": "Antarctica/Davis",
+      "Antarctica/Casey": "Antarctica/Casey",
+      "Antarctica/Vostok": "Antarctica/Vostok",
+      "Antarctica/DumontDUrville": "Antarctica/DumontDUrville",
+      "Antarctica/Syowa": "Antarctica/Syowa",
+      "Antarctica/Troll": "Antarctica/Troll",
+      "Pacific/Auckland": "Pacific/Auckland"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Antarctica/Rothera",
+        "Antarctica/Palmer",
+        "Antarctica/Mawson",
+        "Antarctica/Davis",
+        "Antarctica/Casey",
+        "Antarctica/Vostok",
+        "Antarctica/DumontDUrville",
+        "Antarctica/Syowa",
+        "Antarctica/Troll",
+        "Pacific/Auckland"
+      ]
+    }
+  },
+  "28": {
+    "name": "Антигуа и Барбуда",
+    "full_name": "",
+    "english": "Antigua and Barbuda",
+    "alpha2": "AG",
+    "alpha3": "ATG",
+    "iso": "028",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "32": {
+    "name": "Аргентина",
+    "full_name": "Аргентинская Республика",
+    "english": "Argentina",
+    "alpha2": "AR",
+    "alpha3": "ARG",
+    "iso": "032",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Argentina/Buenos_Aires": "America/Argentina/Buenos_Aires",
+      "America/Argentina/Cordoba": "America/Argentina/Cordoba",
+      "America/Argentina/Salta": "America/Argentina/Salta",
+      "America/Argentina/Jujuy": "America/Argentina/Jujuy",
+      "America/Argentina/Tucuman": "America/Argentina/Tucuman",
+      "America/Argentina/Catamarca": "America/Argentina/Catamarca",
+      "America/Argentina/La_Rioja": "America/Argentina/La_Rioja",
+      "America/Argentina/San_Juan": "America/Argentina/San_Juan",
+      "America/Argentina/Mendoza": "America/Argentina/Mendoza",
+      "America/Argentina/San_Luis": "America/Argentina/San_Luis",
+      "America/Argentina/Rio_Gallegos": "America/Argentina/Rio_Gallegos",
+      "America/Argentina/Ushuaia": "America/Argentina/Ushuaia"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Argentina/Buenos_Aires",
+        "America/Argentina/Cordoba",
+        "America/Argentina/Salta",
+        "America/Argentina/Jujuy",
+        "America/Argentina/Tucuman",
+        "America/Argentina/Catamarca",
+        "America/Argentina/La_Rioja",
+        "America/Argentina/San_Juan",
+        "America/Argentina/Mendoza",
+        "America/Argentina/San_Luis",
+        "America/Argentina/Rio_Gallegos",
+        "America/Argentina/Ushuaia"
+      ]
+    }
+  },
+  "51": {
+    "name": "Армения",
+    "full_name": "Республика Армения",
+    "english": "Armenia",
+    "alpha2": "AM",
+    "alpha3": "ARM",
+    "iso": "051",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Yerevan": "Asia/Yerevan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Yerevan"
+      ]
+    }
+  },
+  "533": {
+    "name": "Аруба",
+    "full_name": "",
+    "english": "Aruba",
+    "alpha2": "AW",
+    "alpha3": "ABW",
+    "iso": "533",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Curacao": "America/Curacao"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Curacao"
+      ]
+    }
+  },
+  "4": {
+    "name": "Афганистан",
+    "full_name": "Переходное Исламское Государство Афганистан",
+    "english": "Afghanistan",
+    "alpha2": "AF",
+    "alpha3": "AFG",
+    "iso": "004",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Kabul": "Asia/Kabul"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Kabul"
+      ]
+    }
+  },
+  "44": {
+    "name": "Багамы",
+    "full_name": "Содружество Багамы",
+    "english": "Bahamas",
+    "alpha2": "BS",
+    "alpha3": "BHS",
+    "iso": "044",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Nassau": "America/Nassau"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Nassau"
+      ]
+    }
+  },
+  "50": {
+    "name": "Бангладеш",
+    "full_name": "Народная Республика Бангладеш",
+    "english": "Bangladesh",
+    "alpha2": "BD",
+    "alpha3": "BGD",
+    "iso": "050",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Dhaka": "Asia/Dhaka"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Dhaka"
+      ]
+    }
+  },
+  "52": {
+    "name": "Барбадос",
+    "full_name": "",
+    "english": "Barbados",
+    "alpha2": "BB",
+    "alpha3": "BRB",
+    "iso": "052",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Barbados": "America/Barbados"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Barbados"
+      ]
+    }
+  },
+  "48": {
+    "name": "Бахрейн",
+    "full_name": "Королевство Бахрейн",
+    "english": "Bahrain",
+    "alpha2": "BH",
+    "alpha3": "BHR",
+    "iso": "048",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Qatar": "Asia/Qatar"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Qatar"
+      ]
+    }
+  },
+  "112": {
+    "name": "Беларусь",
+    "full_name": "Республика Беларусь",
+    "english": "Belarus",
+    "alpha2": "BY",
+    "alpha3": "BLR",
+    "iso": "112",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Minsk": "Europe/Minsk"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Minsk"
+      ]
+    }
+  },
+  "84": {
+    "name": "Белиз",
+    "full_name": "",
+    "english": "Belize",
+    "alpha2": "BZ",
+    "alpha3": "BLZ",
+    "iso": "084",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Belize": "America/Belize"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Belize"
+      ]
+    }
+  },
+  "56": {
+    "name": "Бельгия",
+    "full_name": "Королевство Бельгии",
+    "english": "Belgium",
+    "alpha2": "BE",
+    "alpha3": "BEL",
+    "iso": "056",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Brussels": "Europe/Brussels"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Brussels"
+      ]
+    }
+  },
+  "204": {
+    "name": "Бенин",
+    "full_name": "Республика Бенин",
+    "english": "Benin",
+    "alpha2": "BJ",
+    "alpha3": "BEN",
+    "iso": "204",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "60": {
+    "name": "Бермуды",
+    "full_name": "",
+    "english": "Bermuda",
+    "alpha2": "BM",
+    "alpha3": "BMU",
+    "iso": "060",
+    "location": "Америка",
+    "location_precise": "Северная Америка",
+    "time_zones": {
+      "Atlantic/Bermuda": "Atlantic/Bermuda"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Atlantic/Bermuda"
+      ]
+    }
+  },
+  "100": {
+    "name": "Болгария",
+    "full_name": "Республика Болгария",
+    "english": "Bulgaria",
+    "alpha2": "BG",
+    "alpha3": "BGR",
+    "iso": "100",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Sofia": "Europe/Sofia"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Sofia"
+      ]
+    }
+  },
+  "68": {
+    "name": "Боливия, Многонациональное Государство",
+    "full_name": "Многонациональное Государство Боливия",
+    "english": "Bolivia, plurinational state of",
+    "alpha2": "BO",
+    "alpha3": "BOL",
+    "iso": "068",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/La_Paz": "America/La_Paz"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/La_Paz"
+      ]
+    }
+  },
+  "535": {
+    "name": "Бонайре, Саба и Синт-Эстатиус",
+    "full_name": "",
+    "english": "Bonaire, Sint Eustatius and Saba",
+    "alpha2": "BQ",
+    "alpha3": "BES",
+    "iso": "535",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Curacao": "America/Curacao"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Curacao"
+      ]
+    }
+  },
+  "70": {
+    "name": "Босния и Герцеговина",
+    "full_name": "",
+    "english": "Bosnia and Herzegovina",
+    "alpha2": "BA",
+    "alpha3": "BIH",
+    "iso": "070",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Belgrade": "Europe/Belgrade"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Belgrade"
+      ]
+    }
+  },
+  "72": {
+    "name": "Ботсвана",
+    "full_name": "Республика Ботсвана",
+    "english": "Botswana",
+    "alpha2": "BW",
+    "alpha3": "BWA",
+    "iso": "072",
+    "location": "Африка",
+    "location_precise": "Южная часть Африки",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "76": {
+    "name": "Бразилия",
+    "full_name": "Федеративная Республика Бразилия",
+    "english": "Brazil",
+    "alpha2": "BR",
+    "alpha3": "BRA",
+    "iso": "076",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Noronha": "America/Noronha",
+      "America/Belem": "America/Belem",
+      "America/Fortaleza": "America/Fortaleza",
+      "America/Recife": "America/Recife",
+      "America/Araguaina": "America/Araguaina",
+      "America/Maceio": "America/Maceio",
+      "America/Bahia": "America/Bahia",
+      "America/Sao_Paulo": "America/Sao_Paulo",
+      "America/Campo_Grande": "America/Campo_Grande",
+      "America/Cuiaba": "America/Cuiaba",
+      "America/Santarem": "America/Santarem",
+      "America/Porto_Velho": "America/Porto_Velho",
+      "America/Boa_Vista": "America/Boa_Vista",
+      "America/Manaus": "America/Manaus",
+      "America/Eirunepe": "America/Eirunepe",
+      "America/Rio_Branco": "America/Rio_Branco"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Noronha",
+        "America/Belem",
+        "America/Fortaleza",
+        "America/Recife",
+        "America/Araguaina",
+        "America/Maceio",
+        "America/Bahia",
+        "America/Sao_Paulo",
+        "America/Campo_Grande",
+        "America/Cuiaba",
+        "America/Santarem",
+        "America/Porto_Velho",
+        "America/Boa_Vista",
+        "America/Manaus",
+        "America/Eirunepe",
+        "America/Rio_Branco"
+      ]
+    }
+  },
+  "86": {
+    "name": "Британская территория в Индийском океане",
+    "full_name": "",
+    "english": "British Indian Ocean Territory",
+    "alpha2": "IO",
+    "alpha3": "IOT",
+    "iso": "086",
+    "location": "Океания",
+    "location_precise": "Индийский океан",
+    "time_zones": {
+      "Indian/Chagos": "Indian/Chagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Chagos"
+      ]
+    }
+  },
+  "96": {
+    "name": "Бруней-Даруссалам",
+    "full_name": "",
+    "english": "Brunei Darussalam",
+    "alpha2": "BN",
+    "alpha3": "BRN",
+    "iso": "096",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Brunei": "Asia/Brunei"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Brunei"
+      ]
+    }
+  },
+  "854": {
+    "name": "Буркина-Фасо",
+    "full_name": "",
+    "english": "Burkina Faso",
+    "alpha2": "BF",
+    "alpha3": "BFA",
+    "iso": "854",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "108": {
+    "name": "Бурунди",
+    "full_name": "Республика Бурунди",
+    "english": "Burundi",
+    "alpha2": "BI",
+    "alpha3": "BDI",
+    "iso": "108",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "64": {
+    "name": "Бутан",
+    "full_name": "Королевство Бутан",
+    "english": "Bhutan",
+    "alpha2": "BT",
+    "alpha3": "BTN",
+    "iso": "064",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Thimphu": "Asia/Thimphu"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Thimphu"
+      ]
+    }
+  },
+  "548": {
+    "name": "Вануату",
+    "full_name": "Республика Вануату",
+    "english": "Vanuatu",
+    "alpha2": "VU",
+    "alpha3": "VUT",
+    "iso": "548",
+    "location": "Океания",
+    "location_precise": "Меланезия",
+    "time_zones": {
+      "Pacific/Efate": "Pacific/Efate"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Efate"
+      ]
+    }
+  },
+  "348": {
+    "name": "Венгрия",
+    "full_name": "Венгерская Республика",
+    "english": "Hungary",
+    "alpha2": "HU",
+    "alpha3": "HUN",
+    "iso": "348",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Budapest": "Europe/Budapest"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Budapest"
+      ]
+    }
+  },
+  "862": {
+    "name": "Венесуэла Боливарианская Республика",
+    "full_name": "Боливарийская Республика Венесуэла",
+    "english": "Venezuela",
+    "alpha2": "VE",
+    "alpha3": "VEN",
+    "iso": "862",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Caracas": "America/Caracas"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Caracas"
+      ]
+    }
+  },
+  "92": {
+    "name": "Виргинские острова, Британские",
+    "full_name": "Британские Виргинские острова",
+    "english": "Virgin Islands, British",
+    "alpha2": "VG",
+    "alpha3": "VGB",
+    "iso": "092",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "850": {
+    "name": "Виргинские острова, США",
+    "full_name": "Виргинские острова Соединенных Штатов",
+    "english": "Virgin Islands, U.S.",
+    "alpha2": "VI",
+    "alpha3": "VIR",
+    "iso": "850",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "704": {
+    "name": "Вьетнам",
+    "full_name": "Социалистическая Республика Вьетнам",
+    "english": "Vietnam",
+    "alpha2": "VN",
+    "alpha3": "VNM",
+    "iso": "704",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Ho_Chi_Minh": "Asia/Ho_Chi_Minh",
+      "Asia/Bangkok": "Asia/Bangkok"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Ho_Chi_Minh",
+        "Asia/Bangkok"
+      ]
+    }
+  },
+  "266": {
+    "name": "Габон",
+    "full_name": "Габонская Республика",
+    "english": "Gabon",
+    "alpha2": "GA",
+    "alpha3": "GAB",
+    "iso": "266",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "332": {
+    "name": "Гаити",
+    "full_name": "Республика Гаити",
+    "english": "Haiti",
+    "alpha2": "HT",
+    "alpha3": "HTI",
+    "iso": "332",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port-au-Prince": "America/Port-au-Prince"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port-au-Prince"
+      ]
+    }
+  },
+  "328": {
+    "name": "Гайана",
+    "full_name": "Республика Гайана",
+    "english": "Guyana",
+    "alpha2": "GY",
+    "alpha3": "GUY",
+    "iso": "328",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Guyana": "America/Guyana"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Guyana"
+      ]
+    }
+  },
+  "270": {
+    "name": "Гамбия",
+    "full_name": "Республика Гамбия",
+    "english": "Gambia",
+    "alpha2": "GM",
+    "alpha3": "GMB",
+    "iso": "270",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "288": {
+    "name": "Гана",
+    "full_name": "Республика Гана",
+    "english": "Ghana",
+    "alpha2": "GH",
+    "alpha3": "GHA",
+    "iso": "288",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Accra": "Africa/Accra"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Accra"
+      ]
+    }
+  },
+  "312": {
+    "name": "Гваделупа",
+    "full_name": "",
+    "english": "Guadeloupe",
+    "alpha2": "GP",
+    "alpha3": "GLP",
+    "iso": "312",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "320": {
+    "name": "Гватемала",
+    "full_name": "Республика Гватемала",
+    "english": "Guatemala",
+    "alpha2": "GT",
+    "alpha3": "GTM",
+    "iso": "320",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/Guatemala": "America/Guatemala"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Guatemala"
+      ]
+    }
+  },
+  "324": {
+    "name": "Гвинея",
+    "full_name": "Гвинейская Республика",
+    "english": "Guinea",
+    "alpha2": "GN",
+    "alpha3": "GIN",
+    "iso": "324",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "624": {
+    "name": "Гвинея-Бисау",
+    "full_name": "Республика Гвинея-Бисау",
+    "english": "Guinea-Bissau",
+    "alpha2": "GW",
+    "alpha3": "GNB",
+    "iso": "624",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Bissau": "Africa/Bissau"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Bissau"
+      ]
+    }
+  },
+  "276": {
+    "name": "Германия",
+    "full_name": "Федеративная Республика Германия",
+    "english": "Germany",
+    "alpha2": "DE",
+    "alpha3": "DEU",
+    "iso": "276",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Berlin": "Europe/Berlin",
+      "Europe/Zurich": "Europe/Zurich"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Berlin",
+        "Europe/Zurich"
+      ]
+    }
+  },
+  "831": {
+    "name": "Гернси",
+    "full_name": "",
+    "english": "Guernsey",
+    "alpha2": "GG",
+    "alpha3": "GGY",
+    "iso": "831",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/London": "Europe/London"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/London"
+      ]
+    }
+  },
+  "292": {
+    "name": "Гибралтар",
+    "full_name": "",
+    "english": "Gibraltar",
+    "alpha2": "GI",
+    "alpha3": "GIB",
+    "iso": "292",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Gibraltar": "Europe/Gibraltar"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Gibraltar"
+      ]
+    }
+  },
+  "340": {
+    "name": "Гондурас",
+    "full_name": "Республика Гондурас",
+    "english": "Honduras",
+    "alpha2": "HN",
+    "alpha3": "HND",
+    "iso": "340",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/Tegucigalpa": "America/Tegucigalpa"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Tegucigalpa"
+      ]
+    }
+  },
+  "344": {
+    "name": "Гонконг",
+    "full_name": "Специальный  административный  регион Китая Гонконг",
+    "english": "Hong Kong",
+    "alpha2": "HK",
+    "alpha3": "HKG",
+    "iso": "344",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Hong_Kong": "Asia/Hong_Kong"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Hong_Kong"
+      ]
+    }
+  },
+  "308": {
+    "name": "Гренада",
+    "full_name": "",
+    "english": "Grenada",
+    "alpha2": "GD",
+    "alpha3": "GRD",
+    "iso": "308",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "304": {
+    "name": "Гренландия",
+    "full_name": "",
+    "english": "Greenland",
+    "alpha2": "GL",
+    "alpha3": "GRL",
+    "iso": "304",
+    "location": "Америка",
+    "location_precise": "Северная Америка",
+    "time_zones": {
+      "America/Godthab": "America/Godthab",
+      "America/Danmarkshavn": "America/Danmarkshavn",
+      "America/Scoresbysund": "America/Scoresbysund",
+      "America/Thule": "America/Thule"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Godthab",
+        "America/Danmarkshavn",
+        "America/Scoresbysund",
+        "America/Thule"
+      ]
+    }
+  },
+  "300": {
+    "name": "Греция",
+    "full_name": "Греческая Республика",
+    "english": "Greece",
+    "alpha2": "GR",
+    "alpha3": "GRC",
+    "iso": "300",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Athens": "Europe/Athens"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Athens"
+      ]
+    }
+  },
+  "268": {
+    "name": "Грузия",
+    "full_name": "",
+    "english": "Georgia",
+    "alpha2": "GE",
+    "alpha3": "GEO",
+    "iso": "268",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Tbilisi": "Asia/Tbilisi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Tbilisi"
+      ]
+    }
+  },
+  "316": {
+    "name": "Гуам",
+    "full_name": "",
+    "english": "Guam",
+    "alpha2": "GU",
+    "alpha3": "GUM",
+    "iso": "316",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Guam": "Pacific/Guam"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Guam"
+      ]
+    }
+  },
+  "208": {
+    "name": "Дания",
+    "full_name": "Королевство Дания",
+    "english": "Denmark",
+    "alpha2": "DK",
+    "alpha3": "DNK",
+    "iso": "208",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Copenhagen": "Europe/Copenhagen"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Copenhagen"
+      ]
+    }
+  },
+  "832": {
+    "name": "Джерси",
+    "full_name": "",
+    "english": "Jersey",
+    "alpha2": "JE",
+    "alpha3": "JEY",
+    "iso": "832",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/London": "Europe/London"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/London"
+      ]
+    }
+  },
+  "262": {
+    "name": "Джибути",
+    "full_name": "Республика Джибути",
+    "english": "Djibouti",
+    "alpha2": "DJ",
+    "alpha3": "DJI",
+    "iso": "262",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "212": {
+    "name": "Доминика",
+    "full_name": "Содружество Доминики",
+    "english": "Dominica",
+    "alpha2": "DM",
+    "alpha3": "DMA",
+    "iso": "212",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "214": {
+    "name": "Доминиканская Республика",
+    "full_name": "",
+    "english": "Dominican Republic",
+    "alpha2": "DO",
+    "alpha3": "DOM",
+    "iso": "214",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Santo_Domingo": "America/Santo_Domingo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Santo_Domingo"
+      ]
+    }
+  },
+  "818": {
+    "name": "Египет",
+    "full_name": "Арабская Республика Египет",
+    "english": "Egypt",
+    "alpha2": "EG",
+    "alpha3": "EGY",
+    "iso": "818",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Cairo": "Africa/Cairo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Cairo"
+      ]
+    }
+  },
+  "894": {
+    "name": "Замбия",
+    "full_name": "Республика Замбия",
+    "english": "Zambia",
+    "alpha2": "ZM",
+    "alpha3": "ZMB",
+    "iso": "894",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "732": {
+    "name": "Западная Сахара",
+    "full_name": "",
+    "english": "Western Sahara",
+    "alpha2": "EH",
+    "alpha3": "ESH",
+    "iso": "732",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/El_Aaiun": "Africa/El_Aaiun"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/El_Aaiun"
+      ]
+    }
+  },
+  "716": {
+    "name": "Зимбабве",
+    "full_name": "Республика Зимбабве",
+    "english": "Zimbabwe",
+    "alpha2": "ZW",
+    "alpha3": "ZWE",
+    "iso": "716",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "376": {
+    "name": "Израиль",
+    "full_name": "Государство Израиль",
+    "english": "Israel",
+    "alpha2": "IL",
+    "alpha3": "ISR",
+    "iso": "376",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Jerusalem": "Asia/Jerusalem"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Jerusalem"
+      ]
+    }
+  },
+  "356": {
+    "name": "Индия",
+    "full_name": "Республика Индия",
+    "english": "India",
+    "alpha2": "IN",
+    "alpha3": "IND",
+    "iso": "356",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Kolkata": "Asia/Kolkata"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Kolkata"
+      ]
+    }
+  },
+  "360": {
+    "name": "Индонезия",
+    "full_name": "Республика Индонезия",
+    "english": "Indonesia",
+    "alpha2": "ID",
+    "alpha3": "IDN",
+    "iso": "360",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Jakarta": "Asia/Jakarta",
+      "Asia/Pontianak": "Asia/Pontianak",
+      "Asia/Makassar": "Asia/Makassar",
+      "Asia/Jayapura": "Asia/Jayapura"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Jakarta",
+        "Asia/Pontianak",
+        "Asia/Makassar",
+        "Asia/Jayapura"
+      ]
+    }
+  },
+  "400": {
+    "name": "Иордания",
+    "full_name": "Иорданское Хашимитское Королевство",
+    "english": "Jordan",
+    "alpha2": "JO",
+    "alpha3": "JOR",
+    "iso": "400",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Amman": "Asia/Amman"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Amman"
+      ]
+    }
+  },
+  "368": {
+    "name": "Ирак",
+    "full_name": "Республика Ирак",
+    "english": "Iraq",
+    "alpha2": "IQ",
+    "alpha3": "IRQ",
+    "iso": "368",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Baghdad": "Asia/Baghdad"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Baghdad"
+      ]
+    }
+  },
+  "364": {
+    "name": "Иран, Исламская Республика",
+    "full_name": "Исламская Республика Иран",
+    "english": "Iran, Islamic Republic of",
+    "alpha2": "IR",
+    "alpha3": "IRN",
+    "iso": "364",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Tehran": "Asia/Tehran"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Tehran"
+      ]
+    }
+  },
+  "372": {
+    "name": "Ирландия",
+    "full_name": "",
+    "english": "Ireland",
+    "alpha2": "IE",
+    "alpha3": "IRL",
+    "iso": "372",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Dublin": "Europe/Dublin"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Dublin"
+      ]
+    }
+  },
+  "352": {
+    "name": "Исландия",
+    "full_name": "Республика Исландия",
+    "english": "Iceland",
+    "alpha2": "IS",
+    "alpha3": "ISL",
+    "iso": "352",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Atlantic/Reykjavik": "Atlantic/Reykjavik"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Atlantic/Reykjavik"
+      ]
+    }
+  },
+  "724": {
+    "name": "Испания",
+    "full_name": "Королевство Испания",
+    "english": "Spain",
+    "alpha2": "ES",
+    "alpha3": "ESP",
+    "iso": "724",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Madrid": "Europe/Madrid",
+      "Africa/Ceuta": "Africa/Ceuta",
+      "Atlantic/Canary": "Atlantic/Canary"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Madrid",
+        "Africa/Ceuta",
+        "Atlantic/Canary"
+      ]
+    }
+  },
+  "380": {
+    "name": "Италия",
+    "full_name": "Итальянская Республика",
+    "english": "Italy",
+    "alpha2": "IT",
+    "alpha3": "ITA",
+    "iso": "380",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Rome": "Europe/Rome"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Rome"
+      ]
+    }
+  },
+  "887": {
+    "name": "Йемен",
+    "full_name": "Йеменская Республика",
+    "english": "Yemen",
+    "alpha2": "YE",
+    "alpha3": "YEM",
+    "iso": "887",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Riyadh": "Asia/Riyadh"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Riyadh"
+      ]
+    }
+  },
+  "132": {
+    "name": "Кабо-Верде",
+    "full_name": "Республика Кабо-Верде",
+    "english": "Cape Verde",
+    "alpha2": "CV",
+    "alpha3": "CPV",
+    "iso": "132",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Atlantic/Cape_Verde": "Atlantic/Cape_Verde"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Atlantic/Cape_Verde"
+      ]
+    }
+  },
+  "398": {
+    "name": "Казахстан",
+    "full_name": "Республика Казахстан",
+    "english": "Kazakhstan",
+    "alpha2": "KZ",
+    "alpha3": "KAZ",
+    "iso": "398",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Almaty": "Asia/Almaty",
+      "Asia/Qyzylorda": "Asia/Qyzylorda",
+      "Asia/Aqtobe": "Asia/Aqtobe",
+      "Asia/Aqtau": "Asia/Aqtau",
+      "Asia/Oral": "Asia/Oral"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Almaty",
+        "Asia/Qyzylorda",
+        "Asia/Aqtobe",
+        "Asia/Aqtau",
+        "Asia/Oral"
+      ]
+    }
+  },
+  "116": {
+    "name": "Камбоджа",
+    "full_name": "Королевство Камбоджа",
+    "english": "Cambodia",
+    "alpha2": "KH",
+    "alpha3": "KHM",
+    "iso": "116",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Bangkok": "Asia/Bangkok"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Bangkok"
+      ]
+    }
+  },
+  "120": {
+    "name": "Камерун",
+    "full_name": "Республика Камерун",
+    "english": "Cameroon",
+    "alpha2": "CM",
+    "alpha3": "CMR",
+    "iso": "120",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "124": {
+    "name": "Канада",
+    "full_name": "",
+    "english": "Canada",
+    "alpha2": "CA",
+    "alpha3": "CAN",
+    "iso": "124",
+    "location": "Америка",
+    "location_precise": "Северная Америка",
+    "time_zones": {
+      "America/St_Johns": "America/St_Johns",
+      "America/Halifax": "America/Halifax",
+      "America/Glace_Bay": "America/Glace_Bay",
+      "America/Moncton": "America/Moncton",
+      "America/Goose_Bay": "America/Goose_Bay",
+      "America/Blanc-Sablon": "America/Blanc-Sablon",
+      "America/Toronto": "America/Toronto",
+      "America/Nipigon": "America/Nipigon",
+      "America/Thunder_Bay": "America/Thunder_Bay",
+      "America/Iqaluit": "America/Iqaluit",
+      "America/Pangnirtung": "America/Pangnirtung",
+      "America/Resolute": "America/Resolute",
+      "America/Atikokan": "America/Atikokan",
+      "America/Rankin_Inlet": "America/Rankin_Inlet",
+      "America/Winnipeg": "America/Winnipeg",
+      "America/Rainy_River": "America/Rainy_River",
+      "America/Regina": "America/Regina",
+      "America/Swift_Current": "America/Swift_Current",
+      "America/Edmonton": "America/Edmonton",
+      "America/Cambridge_Bay": "America/Cambridge_Bay",
+      "America/Yellowknife": "America/Yellowknife",
+      "America/Inuvik": "America/Inuvik",
+      "America/Creston": "America/Creston",
+      "America/Dawson_Creek": "America/Dawson_Creek",
+      "America/Vancouver": "America/Vancouver",
+      "America/Whitehorse": "America/Whitehorse",
+      "America/Dawson": "America/Dawson"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/St_Johns",
+        "America/Halifax",
+        "America/Glace_Bay",
+        "America/Moncton",
+        "America/Goose_Bay",
+        "America/Blanc-Sablon",
+        "America/Toronto",
+        "America/Nipigon",
+        "America/Thunder_Bay",
+        "America/Iqaluit",
+        "America/Pangnirtung",
+        "America/Resolute",
+        "America/Atikokan",
+        "America/Rankin_Inlet",
+        "America/Winnipeg",
+        "America/Rainy_River",
+        "America/Regina",
+        "America/Swift_Current",
+        "America/Edmonton",
+        "America/Cambridge_Bay",
+        "America/Yellowknife",
+        "America/Inuvik",
+        "America/Creston",
+        "America/Dawson_Creek",
+        "America/Vancouver",
+        "America/Whitehorse",
+        "America/Dawson"
+      ]
+    }
+  },
+  "634": {
+    "name": "Катар",
+    "full_name": "Государство Катар",
+    "english": "Qatar",
+    "alpha2": "QA",
+    "alpha3": "QAT",
+    "iso": "634",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Qatar": "Asia/Qatar"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Qatar"
+      ]
+    }
+  },
+  "404": {
+    "name": "Кения",
+    "full_name": "Республика Кения",
+    "english": "Kenya",
+    "alpha2": "KE",
+    "alpha3": "KEN",
+    "iso": "404",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "196": {
+    "name": "Кипр",
+    "full_name": "Республика Кипр",
+    "english": "Cyprus",
+    "alpha2": "CY",
+    "alpha3": "CYP",
+    "iso": "196",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Nicosia": "Asia/Nicosia"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Nicosia"
+      ]
+    }
+  },
+  "417": {
+    "name": "Киргизия",
+    "full_name": "Киргизская Республика",
+    "english": "Kyrgyzstan",
+    "alpha2": "KG",
+    "alpha3": "KGZ",
+    "iso": "417",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Bishkek": "Asia/Bishkek"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Bishkek"
+      ]
+    }
+  },
+  "296": {
+    "name": "Кирибати",
+    "full_name": "Республика Кирибати",
+    "english": "Kiribati",
+    "alpha2": "KI",
+    "alpha3": "KIR",
+    "iso": "296",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Tarawa": "Pacific/Tarawa",
+      "Pacific/Enderbury": "Pacific/Enderbury",
+      "Pacific/Kiritimati": "Pacific/Kiritimati"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Tarawa",
+        "Pacific/Enderbury",
+        "Pacific/Kiritimati"
+      ]
+    }
+  },
+  "156": {
+    "name": "Китай",
+    "full_name": "Китайская Народная Республика",
+    "english": "China",
+    "alpha2": "CN",
+    "alpha3": "CHN",
+    "iso": "156",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Shanghai": "Asia/Shanghai",
+      "Asia/Urumqi": "Asia/Urumqi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Shanghai",
+        "Asia/Urumqi"
+      ]
+    }
+  },
+  "166": {
+    "name": "Кокосовые (Килинг) острова",
+    "full_name": "",
+    "english": "Cocos (Keeling) Islands",
+    "alpha2": "CC",
+    "alpha3": "CCK",
+    "iso": "166",
+    "location": "Океания",
+    "location_precise": "Индийский океан",
+    "time_zones": {
+      "Indian/Cocos": "Indian/Cocos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Cocos"
+      ]
+    }
+  },
+  "170": {
+    "name": "Колумбия",
+    "full_name": "Республика Колумбия",
+    "english": "Colombia",
+    "alpha2": "CO",
+    "alpha3": "COL",
+    "iso": "170",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Bogota": "America/Bogota"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Bogota"
+      ]
+    }
+  },
+  "174": {
+    "name": "Коморы",
+    "full_name": "Союз Коморы",
+    "english": "Comoros",
+    "alpha2": "KM",
+    "alpha3": "COM",
+    "iso": "174",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "178": {
+    "name": "Конго",
+    "full_name": "Республика Конго",
+    "english": "Congo",
+    "alpha2": "CG",
+    "alpha3": "COG",
+    "iso": "178",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "180": {
+    "name": "Конго, Демократическая Республика",
+    "full_name": "Демократическая Республика Конго",
+    "english": "Congo, Democratic Republic of the",
+    "alpha2": "CD",
+    "alpha3": "COD",
+    "iso": "180",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo",
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo",
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "408": {
+    "name": "Корея, Народно-Демократическая Республика",
+    "full_name": "Корейская Народно-Демократическая Республика",
+    "english": "Korea, Democratic People's republic of",
+    "alpha2": "KP",
+    "alpha3": "PRK",
+    "iso": "408",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Pyongyang": "Asia/Pyongyang"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Pyongyang"
+      ]
+    }
+  },
+  "410": {
+    "name": "Корея, Республика",
+    "full_name": "Республика Корея",
+    "english": "Korea, Republic of",
+    "alpha2": "KR",
+    "alpha3": "KOR",
+    "iso": "410",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Seoul": "Asia/Seoul"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Seoul"
+      ]
+    }
+  },
+  "188": {
+    "name": "Коста-Рика",
+    "full_name": "Республика Коста-Рика",
+    "english": "Costa Rica",
+    "alpha2": "CR",
+    "alpha3": "CRI",
+    "iso": "188",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/Costa_Rica": "America/Costa_Rica"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Costa_Rica"
+      ]
+    }
+  },
+  "384": {
+    "name": "Кот д'Ивуар",
+    "full_name": "Республика Кот д'Ивуар",
+    "english": "Cote d'Ivoire",
+    "alpha2": "CI",
+    "alpha3": "CIV",
+    "iso": "384",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "192": {
+    "name": "Куба",
+    "full_name": "Республика Куба",
+    "english": "Cuba",
+    "alpha2": "CU",
+    "alpha3": "CUB",
+    "iso": "192",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Havana": "America/Havana"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Havana"
+      ]
+    }
+  },
+  "414": {
+    "name": "Кувейт",
+    "full_name": "Государство Кувейт",
+    "english": "Kuwait",
+    "alpha2": "KW",
+    "alpha3": "KWT",
+    "iso": "414",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Riyadh": "Asia/Riyadh"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Riyadh"
+      ]
+    }
+  },
+  "531": {
+    "name": "Кюрасао",
+    "full_name": "",
+    "english": "Curaçao",
+    "alpha2": "CW",
+    "alpha3": "CUW",
+    "iso": "531",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Curacao": "America/Curacao"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Curacao"
+      ]
+    }
+  },
+  "418": {
+    "name": "Лаос",
+    "full_name": "Лаосская Народно-Демократическая Республика",
+    "english": "Lao People's Democratic Republic",
+    "alpha2": "LA",
+    "alpha3": "LAO",
+    "iso": "418",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Bangkok": "Asia/Bangkok"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Bangkok"
+      ]
+    }
+  },
+  "428": {
+    "name": "Латвия",
+    "full_name": "Латвийская Республика",
+    "english": "Latvia",
+    "alpha2": "LV",
+    "alpha3": "LVA",
+    "iso": "428",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Riga": "Europe/Riga"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Riga"
+      ]
+    }
+  },
+  "426": {
+    "name": "Лесото",
+    "full_name": "Королевство Лесото",
+    "english": "Lesotho",
+    "alpha2": "LS",
+    "alpha3": "LSO",
+    "iso": "426",
+    "location": "Африка",
+    "location_precise": "Южная часть Африки",
+    "time_zones": {
+      "Africa/Johannesburg": "Africa/Johannesburg"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Johannesburg"
+      ]
+    }
+  },
+  "422": {
+    "name": "Ливан",
+    "full_name": "Ливанская Республика",
+    "english": "Lebanon",
+    "alpha2": "LB",
+    "alpha3": "LBN",
+    "iso": "422",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Beirut": "Asia/Beirut"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Beirut"
+      ]
+    }
+  },
+  "434": {
+    "name": "Ливийская Арабская Джамахирия",
+    "full_name": "Социалистическая Народная Ливийская Арабская Джамахирия",
+    "english": "Libyan Arab Jamahiriya",
+    "alpha2": "LY",
+    "alpha3": "LBY",
+    "iso": "434",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Tripoli": "Africa/Tripoli"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Tripoli"
+      ]
+    }
+  },
+  "430": {
+    "name": "Либерия",
+    "full_name": "Республика Либерия",
+    "english": "Liberia",
+    "alpha2": "LR",
+    "alpha3": "LBR",
+    "iso": "430",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Monrovia": "Africa/Monrovia"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Monrovia"
+      ]
+    }
+  },
+  "438": {
+    "name": "Лихтенштейн",
+    "full_name": "Княжество Лихтенштейн",
+    "english": "Liechtenstein",
+    "alpha2": "LI",
+    "alpha3": "LIE",
+    "iso": "438",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Zurich": "Europe/Zurich"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Zurich"
+      ]
+    }
+  },
+  "440": {
+    "name": "Литва",
+    "full_name": "Литовская Республика",
+    "english": "Lithuania",
+    "alpha2": "LT",
+    "alpha3": "LTU",
+    "iso": "440",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Vilnius": "Europe/Vilnius"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Vilnius"
+      ]
+    }
+  },
+  "442": {
+    "name": "Люксембург",
+    "full_name": "Великое Герцогство Люксембург",
+    "english": "Luxembourg",
+    "alpha2": "LU",
+    "alpha3": "LUX",
+    "iso": "442",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Luxembourg": "Europe/Luxembourg"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Luxembourg"
+      ]
+    }
+  },
+  "480": {
+    "name": "Маврикий",
+    "full_name": "Республика Маврикий",
+    "english": "Mauritius",
+    "alpha2": "MU",
+    "alpha3": "MUS",
+    "iso": "480",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Indian/Mauritius": "Indian/Mauritius"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Mauritius"
+      ]
+    }
+  },
+  "478": {
+    "name": "Мавритания",
+    "full_name": "Исламская Республика Мавритания",
+    "english": "Mauritania",
+    "alpha2": "MR",
+    "alpha3": "MRT",
+    "iso": "478",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "450": {
+    "name": "Мадагаскар",
+    "full_name": "Республика Мадагаскар",
+    "english": "Madagascar",
+    "alpha2": "MG",
+    "alpha3": "MDG",
+    "iso": "450",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "175": {
+    "name": "Майотта",
+    "full_name": "",
+    "english": "Mayotte",
+    "alpha2": "YT",
+    "alpha3": "MYT",
+    "iso": "175",
+    "location": "Африка",
+    "location_precise": "Южная часть Африки",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "446": {
+    "name": "Макао",
+    "full_name": "Специальный административный регион Китая Макао",
+    "english": "Macao",
+    "alpha2": "MO",
+    "alpha3": "MAC",
+    "iso": "446",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Macau": "Asia/Macau"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Macau"
+      ]
+    }
+  },
+  "454": {
+    "name": "Малави",
+    "full_name": "Республика Малави",
+    "english": "Malawi",
+    "alpha2": "MW",
+    "alpha3": "MWI",
+    "iso": "454",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "458": {
+    "name": "Малайзия",
+    "full_name": "",
+    "english": "Malaysia",
+    "alpha2": "MY",
+    "alpha3": "MYS",
+    "iso": "458",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Kuala_Lumpur": "Asia/Kuala_Lumpur",
+      "Asia/Kuching": "Asia/Kuching"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Kuala_Lumpur",
+        "Asia/Kuching"
+      ]
+    }
+  },
+  "466": {
+    "name": "Мали",
+    "full_name": "Республика Мали",
+    "english": "Mali",
+    "alpha2": "ML",
+    "alpha3": "MLI",
+    "iso": "466",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "581": {
+    "name": "Малые Тихоокеанские отдаленные острова Соединенных Штатов",
+    "full_name": "",
+    "english": "United States Minor Outlying Islands",
+    "alpha2": "UM",
+    "alpha3": "UMI",
+    "iso": "581",
+    "location": "Океания",
+    "location_precise": "Индийский океан",
+    "time_zones": {
+      "Pacific/Wake": "Pacific/Wake",
+      "Pacific/Pago_Pago": "Pacific/Pago_Pago",
+      "Pacific/Honolulu": "Pacific/Honolulu"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Wake",
+        "Pacific/Pago_Pago",
+        "Pacific/Honolulu"
+      ]
+    }
+  },
+  "462": {
+    "name": "Мальдивы",
+    "full_name": "Мальдивская Республика",
+    "english": "Maldives",
+    "alpha2": "MV",
+    "alpha3": "MDV",
+    "iso": "462",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Indian/Maldives": "Indian/Maldives"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Maldives"
+      ]
+    }
+  },
+  "470": {
+    "name": "Мальта",
+    "full_name": "Республика Мальта",
+    "english": "Malta",
+    "alpha2": "MT",
+    "alpha3": "MLT",
+    "iso": "470",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Malta": "Europe/Malta"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Malta"
+      ]
+    }
+  },
+  "504": {
+    "name": "Марокко",
+    "full_name": "Королевство Марокко",
+    "english": "Morocco",
+    "alpha2": "MA",
+    "alpha3": "MAR",
+    "iso": "504",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Casablanca": "Africa/Casablanca"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Casablanca"
+      ]
+    }
+  },
+  "474": {
+    "name": "Мартиника",
+    "full_name": "",
+    "english": "Martinique",
+    "alpha2": "MQ",
+    "alpha3": "MTQ",
+    "iso": "474",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Martinique": "America/Martinique"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Martinique"
+      ]
+    }
+  },
+  "584": {
+    "name": "Маршалловы острова",
+    "full_name": "Республика Маршалловы острова",
+    "english": "Marshall Islands",
+    "alpha2": "MH",
+    "alpha3": "MHL",
+    "iso": "584",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Majuro": "Pacific/Majuro",
+      "Pacific/Kwajalein": "Pacific/Kwajalein"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Majuro",
+        "Pacific/Kwajalein"
+      ]
+    }
+  },
+  "484": {
+    "name": "Мексика",
+    "full_name": "Мексиканские Соединенные Штаты",
+    "english": "Mexico",
+    "alpha2": "MX",
+    "alpha3": "MEX",
+    "iso": "484",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/Mexico_City": "America/Mexico_City",
+      "America/Cancun": "America/Cancun",
+      "America/Merida": "America/Merida",
+      "America/Monterrey": "America/Monterrey",
+      "America/Matamoros": "America/Matamoros",
+      "America/Mazatlan": "America/Mazatlan",
+      "America/Chihuahua": "America/Chihuahua",
+      "America/Ojinaga": "America/Ojinaga",
+      "America/Hermosillo": "America/Hermosillo",
+      "America/Tijuana": "America/Tijuana",
+      "America/Santa_Isabel": "America/Santa_Isabel",
+      "America/Bahia_Banderas": "America/Bahia_Banderas"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Mexico_City",
+        "America/Cancun",
+        "America/Merida",
+        "America/Monterrey",
+        "America/Matamoros",
+        "America/Mazatlan",
+        "America/Chihuahua",
+        "America/Ojinaga",
+        "America/Hermosillo",
+        "America/Tijuana",
+        "America/Santa_Isabel",
+        "America/Bahia_Banderas"
+      ]
+    }
+  },
+  "583": {
+    "name": "Микронезия, Федеративные Штаты",
+    "full_name": "Федеративные штаты Микронезии",
+    "english": "Micronesia, Federated States of",
+    "alpha2": "FM",
+    "alpha3": "FSM",
+    "iso": "583",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Chuuk": "Pacific/Chuuk",
+      "Pacific/Pohnpei": "Pacific/Pohnpei",
+      "Pacific/Kosrae": "Pacific/Kosrae"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Chuuk",
+        "Pacific/Pohnpei",
+        "Pacific/Kosrae"
+      ]
+    }
+  },
+  "508": {
+    "name": "Мозамбик",
+    "full_name": "Республика Мозамбик",
+    "english": "Mozambique",
+    "alpha2": "MZ",
+    "alpha3": "MOZ",
+    "iso": "508",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "498": {
+    "name": "Молдова, Республика",
+    "full_name": "Республика Молдова",
+    "english": "Moldova",
+    "alpha2": "MD",
+    "alpha3": "MDA",
+    "iso": "498",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Chisinau": "Europe/Chisinau"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Chisinau"
+      ]
+    }
+  },
+  "492": {
+    "name": "Монако",
+    "full_name": "Княжество Монако",
+    "english": "Monaco",
+    "alpha2": "MC",
+    "alpha3": "MCO",
+    "iso": "492",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Monaco": "Europe/Monaco"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Monaco"
+      ]
+    }
+  },
+  "496": {
+    "name": "Монголия",
+    "full_name": "",
+    "english": "Mongolia",
+    "alpha2": "MN",
+    "alpha3": "MNG",
+    "iso": "496",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Ulaanbaatar": "Asia/Ulaanbaatar",
+      "Asia/Hovd": "Asia/Hovd",
+      "Asia/Choibalsan": "Asia/Choibalsan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Ulaanbaatar",
+        "Asia/Hovd",
+        "Asia/Choibalsan"
+      ]
+    }
+  },
+  "500": {
+    "name": "Монтсеррат",
+    "full_name": "",
+    "english": "Montserrat",
+    "alpha2": "MS",
+    "alpha3": "MSR",
+    "iso": "500",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "104": {
+    "name": "Мьянма",
+    "full_name": "Союз Мьянма",
+    "english": "Myanmar",
+    "alpha2": "MM",
+    "alpha3": "MMR",
+    "iso": "104",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Rangoon": "Asia/Rangoon"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Rangoon"
+      ]
+    }
+  },
+  "516": {
+    "name": "Намибия",
+    "full_name": "Республика Намибия",
+    "english": "Namibia",
+    "alpha2": "NA",
+    "alpha3": "NAM",
+    "iso": "516",
+    "location": "Африка",
+    "location_precise": "Южная часть Африки",
+    "time_zones": {
+      "Africa/Windhoek": "Africa/Windhoek"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Windhoek"
+      ]
+    }
+  },
+  "520": {
+    "name": "Науру",
+    "full_name": "Республика Науру",
+    "english": "Nauru",
+    "alpha2": "NR",
+    "alpha3": "NRU",
+    "iso": "520",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Nauru": "Pacific/Nauru"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Nauru"
+      ]
+    }
+  },
+  "524": {
+    "name": "Непал",
+    "full_name": "Федеративная Демократическая Республика Непал",
+    "english": "Nepal",
+    "alpha2": "NP",
+    "alpha3": "NPL",
+    "iso": "524",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Kathmandu": "Asia/Kathmandu"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Kathmandu"
+      ]
+    }
+  },
+  "562": {
+    "name": "Нигер",
+    "full_name": "Республика Нигер",
+    "english": "Niger",
+    "alpha2": "NE",
+    "alpha3": "NER",
+    "iso": "562",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "566": {
+    "name": "Нигерия",
+    "full_name": "Федеративная Республика Нигерия",
+    "english": "Nigeria",
+    "alpha2": "NG",
+    "alpha3": "NGA",
+    "iso": "566",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "528": {
+    "name": "Нидерланды",
+    "full_name": "Королевство Нидерландов",
+    "english": "Netherlands",
+    "alpha2": "NL",
+    "alpha3": "NLD",
+    "iso": "528",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Amsterdam": "Europe/Amsterdam"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Amsterdam"
+      ]
+    }
+  },
+  "558": {
+    "name": "Никарагуа",
+    "full_name": "Республика Никарагуа",
+    "english": "Nicaragua",
+    "alpha2": "NI",
+    "alpha3": "NIC",
+    "iso": "558",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/Managua": "America/Managua"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Managua"
+      ]
+    }
+  },
+  "570": {
+    "name": "Ниуэ",
+    "full_name": "Республика Ниуэ",
+    "english": "Niue",
+    "alpha2": "NU",
+    "alpha3": "NIU",
+    "iso": "570",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Niue": "Pacific/Niue"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Niue"
+      ]
+    }
+  },
+  "554": {
+    "name": "Новая Зеландия",
+    "full_name": "",
+    "english": "New Zealand",
+    "alpha2": "NZ",
+    "alpha3": "NZL",
+    "iso": "554",
+    "location": "Океания",
+    "location_precise": "Австралия и Новая Зеландия",
+    "time_zones": {
+      "Pacific/Auckland": "Pacific/Auckland",
+      "Pacific/Chatham": "Pacific/Chatham"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Auckland",
+        "Pacific/Chatham"
+      ]
+    }
+  },
+  "540": {
+    "name": "Новая Каледония",
+    "full_name": "",
+    "english": "New Caledonia",
+    "alpha2": "NC",
+    "alpha3": "NCL",
+    "iso": "540",
+    "location": "Океания",
+    "location_precise": "Меланезия",
+    "time_zones": {
+      "Pacific/Noumea": "Pacific/Noumea"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Noumea"
+      ]
+    }
+  },
+  "578": {
+    "name": "Норвегия",
+    "full_name": "Королевство Норвегия",
+    "english": "Norway",
+    "alpha2": "NO",
+    "alpha3": "NOR",
+    "iso": "578",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Oslo": "Europe/Oslo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Oslo"
+      ]
+    }
+  },
+  "784": {
+    "name": "Объединенные Арабские Эмираты",
+    "full_name": "",
+    "english": "United Arab Emirates",
+    "alpha2": "AE",
+    "alpha3": "ARE",
+    "iso": "784",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Dubai": "Asia/Dubai"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Dubai"
+      ]
+    }
+  },
+  "512": {
+    "name": "Оман",
+    "full_name": "Султанат Оман",
+    "english": "Oman",
+    "alpha2": "OM",
+    "alpha3": "OMN",
+    "iso": "512",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Dubai": "Asia/Dubai"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Dubai"
+      ]
+    }
+  },
+  "74": {
+    "name": "Остров Буве",
+    "full_name": "",
+    "english": "Bouvet Island",
+    "alpha2": "BV",
+    "alpha3": "BVT",
+    "iso": "074",
+    "location": "",
+    "location_precise": "Южный океан",
+    "time_zones": {
+      "Europe/Oslo": "Europe/Oslo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Oslo"
+      ]
+    }
+  },
+  "833": {
+    "name": "Остров Мэн",
+    "full_name": "",
+    "english": "Isle of Man",
+    "alpha2": "IM",
+    "alpha3": "IMN",
+    "iso": "833",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/London": "Europe/London"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/London"
+      ]
+    }
+  },
+  "574": {
+    "name": "Остров Норфолк",
+    "full_name": "",
+    "english": "Norfolk Island",
+    "alpha2": "NF",
+    "alpha3": "NFK",
+    "iso": "574",
+    "location": "Океания",
+    "location_precise": "Австралия и Новая Зеландия",
+    "time_zones": {
+      "Pacific/Norfolk": "Pacific/Norfolk"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Norfolk"
+      ]
+    }
+  },
+  "162": {
+    "name": "Остров Рождества",
+    "full_name": "",
+    "english": "Christmas Island",
+    "alpha2": "CX",
+    "alpha3": "CXR",
+    "iso": "162",
+    "location": "Азия",
+    "location_precise": "Индийский океан",
+    "time_zones": {
+      "Indian/Christmas": "Indian/Christmas"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Christmas"
+      ]
+    }
+  },
+  "136": {
+    "name": "Острова Кайман",
+    "full_name": "",
+    "english": "Cayman Islands",
+    "alpha2": "KY",
+    "alpha3": "CYM",
+    "iso": "136",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Cayman": "America/Cayman"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Cayman"
+      ]
+    }
+  },
+  "184": {
+    "name": "Острова Кука",
+    "full_name": "",
+    "english": "Cook Islands",
+    "alpha2": "CK",
+    "alpha3": "COK",
+    "iso": "184",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Rarotonga": "Pacific/Rarotonga"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Rarotonga"
+      ]
+    }
+  },
+  "796": {
+    "name": "Острова Теркс и Кайкос",
+    "full_name": "",
+    "english": "Turks and Caicos Islands",
+    "alpha2": "TC",
+    "alpha3": "TCA",
+    "iso": "796",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Grand_Turk": "America/Grand_Turk"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Grand_Turk"
+      ]
+    }
+  },
+  "586": {
+    "name": "Пакистан",
+    "full_name": "Исламская Республика Пакистан",
+    "english": "Pakistan",
+    "alpha2": "PK",
+    "alpha3": "PAK",
+    "iso": "586",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Karachi": "Asia/Karachi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Karachi"
+      ]
+    }
+  },
+  "585": {
+    "name": "Палау",
+    "full_name": "Республика Палау",
+    "english": "Palau",
+    "alpha2": "PW",
+    "alpha3": "PLW",
+    "iso": "585",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Palau": "Pacific/Palau"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Palau"
+      ]
+    }
+  },
+  "275": {
+    "name": "Палестинская территория, оккупированная",
+    "full_name": "Оккупированная Палестинская территория",
+    "english": "Palestinian Territory, Occupied",
+    "alpha2": "PS",
+    "alpha3": "PSE",
+    "iso": "275",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Gaza": "Asia/Gaza",
+      "Asia/Hebron": "Asia/Hebron"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Gaza",
+        "Asia/Hebron"
+      ]
+    }
+  },
+  "591": {
+    "name": "Панама",
+    "full_name": "Республика Панама",
+    "english": "Panama",
+    "alpha2": "PA",
+    "alpha3": "PAN",
+    "iso": "591",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/Panama": "America/Panama"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Panama"
+      ]
+    }
+  },
+  "336": {
+    "name": "Папский Престол (Государство — город Ватикан)",
+    "full_name": "",
+    "english": "Holy See (Vatican City State)",
+    "alpha2": "VA",
+    "alpha3": "VAT",
+    "iso": "336",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Rome": "Europe/Rome"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Rome"
+      ]
+    }
+  },
+  "598": {
+    "name": "Папуа-Новая Гвинея",
+    "full_name": "",
+    "english": "Papua New Guinea",
+    "alpha2": "PG",
+    "alpha3": "PNG",
+    "iso": "598",
+    "location": "Океания",
+    "location_precise": "Меланезия",
+    "time_zones": {
+      "Pacific/Port_Moresby": "Pacific/Port_Moresby",
+      "Pacific/Bougainville": "Pacific/Bougainville"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Port_Moresby",
+        "Pacific/Bougainville"
+      ]
+    }
+  },
+  "600": {
+    "name": "Парагвай",
+    "full_name": "Республика Парагвай",
+    "english": "Paraguay",
+    "alpha2": "PY",
+    "alpha3": "PRY",
+    "iso": "600",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Asuncion": "America/Asuncion"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Asuncion"
+      ]
+    }
+  },
+  "604": {
+    "name": "Перу",
+    "full_name": "Республика Перу",
+    "english": "Peru",
+    "alpha2": "PE",
+    "alpha3": "PER",
+    "iso": "604",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Lima": "America/Lima"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Lima"
+      ]
+    }
+  },
+  "612": {
+    "name": "Питкерн",
+    "full_name": "",
+    "english": "Pitcairn",
+    "alpha2": "PN",
+    "alpha3": "PCN",
+    "iso": "612",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Pitcairn": "Pacific/Pitcairn"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Pitcairn"
+      ]
+    }
+  },
+  "616": {
+    "name": "Польша",
+    "full_name": "Республика Польша",
+    "english": "Poland",
+    "alpha2": "PL",
+    "alpha3": "POL",
+    "iso": "616",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Warsaw": "Europe/Warsaw"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Warsaw"
+      ]
+    }
+  },
+  "620": {
+    "name": "Португалия",
+    "full_name": "Португальская Республика",
+    "english": "Portugal",
+    "alpha2": "PT",
+    "alpha3": "PRT",
+    "iso": "620",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Lisbon": "Europe/Lisbon",
+      "Atlantic/Madeira": "Atlantic/Madeira",
+      "Atlantic/Azores": "Atlantic/Azores"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Lisbon",
+        "Atlantic/Madeira",
+        "Atlantic/Azores"
+      ]
+    }
+  },
+  "630": {
+    "name": "Пуэрто-Рико",
+    "full_name": "",
+    "english": "Puerto Rico",
+    "alpha2": "PR",
+    "alpha3": "PRI",
+    "iso": "630",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Puerto_Rico": "America/Puerto_Rico"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Puerto_Rico"
+      ]
+    }
+  },
+  "807": {
+    "name": "Республика Македония",
+    "full_name": "",
+    "english": "Macedonia, The Former Yugoslav Republic Of",
+    "alpha2": "MK",
+    "alpha3": "MKD",
+    "iso": "807",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Belgrade": "Europe/Belgrade"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Belgrade"
+      ]
+    }
+  },
+  "638": {
+    "name": "Реюньон",
+    "full_name": "",
+    "english": "Reunion",
+    "alpha2": "RE",
+    "alpha3": "REU",
+    "iso": "638",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Indian/Reunion": "Indian/Reunion"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Reunion"
+      ]
+    }
+  },
+  "643": {
+    "name": "Россия",
+    "full_name": "Российская Федерация",
+    "english": "Russian Federation",
+    "alpha2": "RU",
+    "alpha3": "RUS",
+    "iso": "643",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Kaliningrad": "Калининград (MSK -1)",
+      "Europe/Moscow": "Москва (MSK)",
+      "Europe/Simferopol": "Симферополь (MSK)",
+      "Europe/Volgograd": "Волгоград (MSK)",
+      "Europe/Astrakhan": "Астрахань (MSK +1)",
+      "Europe/Ulyanovsk": "Ульяновск (MSK +1)",
+      "Europe/Samara": "Самара (MSK +1)",
+      "Asia/Yekaterinburg": "Екатеринбург (MSK +2)",
+      "Asia/Omsk": "Омск (MSK +3)",
+      "Asia/Novosibirsk": "Новосибирск (MSK +3)",
+      "Asia/Barnaul": "Барнаул (MSK +4)",
+      "Asia/Novokuznetsk": "Новокузнецк (MSK +4)",
+      "Asia/Krasnoyarsk": "Красноярск (MSK +4)",
+      "Asia/Irkutsk": "Иркутск (MSK +5)",
+      "Asia/Chita": "Чита (MSK +6)",
+      "Asia/Yakutsk": "Якутск (MSK +6)",
+      "Asia/Khandyga": "Хандыга (MSK +6)",
+      "Asia/Vladivostok": "Владивосток (MSK +7)",
+      "Asia/Sakhalin": "Сахалин (MSK +8)",
+      "Asia/Ust-Nera": "Усть-Нера (MSK +7)",
+      "Asia/Magadan": "Магадан (MSK +7)",
+      "Asia/Srednekolymsk": "Среднеколымск (MSK +8)",
+      "Asia/Kamchatka": "Камчатка (MSK +9)",
+      "Asia/Anadyr": "Анадырь (MSK +9)"
+    },
+    "regions": {
+      "77": "Москва",
+      "50": "Московская область",
+      "1":  "Адыгея",
+      "4":  "Алтай",
+      "22": "Алтайский край",
+      "28": "Амурская область",
+      "29": "Архангельская область",
+      "30": "Астраханская область",
+      "2":  "Башкортостан",
+      "31": "Белгородская область",
+      "32": "Брянская область",
+      "3":  "Бурятия",
+      "33": "Владимирская область",
+      "34": "Волгоградская область",
+      "35": "Вологодская область",
+      "36": "Воронежская область",
+      "5":  "Дагестан",
+      "79": "Еврейская АО",
+      "75": "Забайкальский край",
+      "37": "Ивановская область",
+      "6":  "Ингушетия",
+      "38": "Иркутская область",
+      "7":  "Кабардино-Балкария",
+      "39": "Калининградская область",
+      "8":  "Калмыкия",
+      "40": "Калужская область",
+      "41": "Камчатский край",
+      "9":  "Карачаево-Черкесия",
+      "10": "Карелия",
+      "42": "Кемеровская область",
+      "43": "Кировская область",
+      "11": "Коми",
+      "44": "Костромская область",
+      "23": "Краснодарский край",
+      "24": "Красноярский край",
+      "91": "Крым",
+      "45": "Курганская область",
+      "46": "Курская область",
+      "47": "Ленинградская область",
+      "48": "Липецкая область",
+      "49": "Магаданская область",
+      "12": "Марий Эл",
+      "13": "Мордовия",
+      "51": "Мурманская область",
+      "83": "Ненецкий АО",
+      "52": "Нижегородская область",
+      "53": "Новгородская область",
+      "54": "Новосибирская область",
+      "55": "Омская область",
+      "56": "Оренбургская область",
+      "57": "Орловская область",
+      "58": "Пензенская область",
+      "59": "Пермский край",
+      "25": "Приморский край",
+      "60": "Псковская область",
+      "61": "Ростовская область",
+      "62": "Рязанская область",
+      "63": "Самарская область",
+      "78": "Санкт-Петербург",
+      "64": "Саратовская область",
+      "14": "Саха (Якутия)",
+      "65": "Сахалинская область",
+      "66": "Свердловская область",
+      "92": "Севастополь",
+      "15": "Северная Осетия — Алания",
+      "67": "Смоленская область",
+      "26": "Ставропольский край",
+      "68": "Тамбовская область",
+      "16": "Татарстан",
+      "69": "Тверская область",
+      "70": "Томская область",
+      "71": "Тульская область",
+      "17": "Тыва",
+      "72": "Тюменская область",
+      "18": "Удмуртия",
+      "73": "Ульяновская область",
+      "27": "Хабаровский край",
+      "19": "Хакасия",
+      "86": "Ханты-Мансийский автономный округ — Югра",
+      "74": "Челябинская область",
+      "20": "Чечня",
+      "21": "Чувашия",
+      "87": "Чукотский АО",
+      "89": "Ямало-Ненецкий АО",
+      "76": "Ярославская область",
+      "0":  "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Kaliningrad",
+        "Europe/Moscow",
+        "Europe/Simferopol",
+        "Europe/Volgograd",
+        "Europe/Astrakhan",
+        "Europe/Ulyanovsk",
+        "Europe/Samara",
+        "Asia/Yekaterinburg",
+        "Asia/Omsk",
+        "Asia/Novosibirsk",
+        "Asia/Barnaul",
+        "Asia/Novokuznetsk",
+        "Asia/Krasnoyarsk",
+        "Asia/Irkutsk",
+        "Asia/Chita",
+        "Asia/Yakutsk",
+        "Asia/Khandyga",
+        "Asia/Vladivostok",
+        "Asia/Sakhalin",
+        "Asia/Ust-Nera",
+        "Asia/Magadan",
+        "Asia/Srednekolymsk",
+        "Asia/Kamchatka",
+        "Asia/Anadyr"
+      ],
+      "1": [
+        "Europe/Samara"
+      ],
+      "2": [
+        "Asia/Yekaterinburg"
+      ],
+      "3": [
+        "Asia/Irkutsk"
+      ],
+      "4": [
+        "Asia/Barnaul"
+      ],
+      "5": [
+        "Europe/Moscow"
+      ],
+      "6": [
+        "Europe/Moscow"
+      ],
+      "7": [
+        "Europe/Moscow"
+      ],
+      "8": [
+        "Europe/Moscow"
+      ],
+      "9": [
+        "Europe/Moscow"
+      ],
+      "10": [
+        "Europe/Moscow"
+      ],
+      "11": [
+        "Europe/Moscow"
+      ],
+      "12": [
+        "Europe/Moscow"
+      ],
+      "13": [
+        "Europe/Moscow"
+      ],
+      "14": [
+        "Asia/Yakutsk",
+        "Asia/Vladivostok",
+        "Asia/Srednekolymsk"
+      ],
+      "15": [
+        "Europe/Moscow"
+      ],
+      "16": [
+        "Europe/Moscow"
+      ],
+      "17": [
+        "Asia/Krasnoyarsk"
+      ],
+      "18": [
+        "Europe/Samara"
+      ],
+      "19": [
+        "Asia/Krasnoyarsk"
+      ],
+      "20": [
+        "Europe/Moscow"
+      ],
+      "21": [
+        "Europe/Moscow"
+      ],
+      "22": [
+        "Asia/Barnaul"
+      ],
+      "23": [
+        "Europe/Moscow"
+      ],
+      "24": [
+        "Asia/Krasnoyarsk"
+      ],
+      "25": [
+        "Asia/Vladivostok"
+      ],
+      "26": [
+        "Europe/Moscow"
+      ],
+      "27": [
+        "Asia/Vladivostok"
+      ],
+      "28": [
+        "Asia/Yakutsk"
+      ],
+      "29": [
+        "Europe/Moscow"
+      ],
+      "30": [
+        "Europe/Astrakhan"
+      ],
+      "31": [
+        "Europe/Moscow"
+      ],
+      "32": [
+        "Europe/Moscow"
+      ],
+      "33": [
+        "Europe/Moscow"
+      ],
+      "34": [
+        "Europe/Moscow"
+      ],
+      "35": [
+        "Europe/Moscow"
+      ],
+      "36": [
+        "Europe/Moscow"
+      ],
+      "37": [
+        "Europe/Moscow"
+      ],
+      "38": [
+        "Asia/Irkutsk"
+      ],
+      "39": [
+        "Europe/Kaliningrad"
+      ],
+      "40": [
+        "Europe/Moscow"
+      ],
+      "41": [
+        "Asia/Srednekolymsk"
+      ],
+      "42": [
+        "Asia/Krasnoyarsk"
+      ],
+      "43": [
+        "Europe/Moscow"
+      ],
+      "44": [
+        "Europe/Moscow"
+      ],
+      "45": [
+        "Asia/Yekaterinburg"
+      ],
+      "46": [
+        "Europe/Moscow"
+      ],
+      "47": [
+        "Europe/Moscow"
+      ],
+      "48": [
+        "Europe/Moscow"
+      ],
+      "49": [
+        "Asia/Vladivostok"
+      ],
+      "50": [
+        "Europe/Moscow"
+      ],
+      "51": [
+        "Europe/Moscow"
+      ],
+      "52": [
+        "Europe/Moscow"
+      ],
+      "53": [
+        "Europe/Moscow"
+      ],
+      "54": [
+        "Asia/Omsk"
+      ],
+      "55": [
+        "Asia/Omsk"
+      ],
+      "56": [
+        "Asia/Yekaterinburg"
+      ],
+      "57": [
+        "Europe/Moscow"
+      ],
+      "58": [
+        "Europe/Moscow"
+      ],
+      "59": [
+        "Asia/Yekaterinburg"
+      ],
+      "60": [
+        "Europe/Moscow"
+      ],
+      "61": [
+        "Europe/Moscow"
+      ],
+      "62": [
+        "Europe/Moscow"
+      ],
+      "63": [
+        "Europe/Samara"
+      ],
+      "64": [
+        "Europe/Moscow"
+      ],
+      "65": [
+        "Asia/Sakhalin"
+      ],
+      "66": [
+        "Asia/Yekaterinburg"
+      ],
+      "67": [
+        "Europe/Moscow"
+      ],
+      "68": [
+        "Europe/Moscow"
+      ],
+      "69": [
+        "Europe/Moscow"
+      ],
+      "70": [
+        "Asia/Omsk"
+      ],
+      "71": [
+        "Europe/Moscow"
+      ],
+      "72": [
+        "Asia/Yekaterinburg"
+      ],
+      "73": [
+        "Europe/Ulyanovsk"
+      ],
+      "74": [
+        "Asia/Yekaterinburg"
+      ],
+      "75": [
+        "Asia/Chita"
+      ],
+      "76": [
+        "Europe/Moscow"
+      ],
+      "77": [
+        "Europe/Moscow"
+      ],
+      "78": [
+        "Europe/Moscow"
+      ],
+      "79": [
+        "Asia/Vladivostok"
+      ],
+      "83": [
+        "Europe/Moscow"
+      ],
+      "86": [
+        "Asia/Yekaterinburg"
+      ],
+      "87": [
+        "Asia/Srednekolymsk"
+      ],
+      "89": [
+        "Asia/Yekaterinburg"
+      ],
+      "91": [
+        "Europe/Moscow"
+      ],
+      "92": [
+        "Europe/Moscow"
+      ],
+      "99": [
+       "Asia/Qyzylorda"
+      ]
+    }
+  },
+  "646": {
+    "name": "Руанда",
+    "full_name": "Руандийская Республика",
+    "english": "Rwanda",
+    "alpha2": "RW",
+    "alpha3": "RWA",
+    "iso": "646",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Maputo": "Africa/Maputo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Maputo"
+      ]
+    }
+  },
+  "642": {
+    "name": "Румыния",
+    "full_name": "",
+    "english": "Romania",
+    "alpha2": "RO",
+    "alpha3": "ROU",
+    "iso": "642",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Bucharest": "Europe/Bucharest"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Bucharest"
+      ]
+    }
+  },
+  "882": {
+    "name": "Самоа",
+    "full_name": "Независимое Государство Самоа",
+    "english": "Samoa",
+    "alpha2": "WS",
+    "alpha3": "WSM",
+    "iso": "882",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Apia": "Pacific/Apia"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Apia"
+      ]
+    }
+  },
+  "674": {
+    "name": "Сан-Марино",
+    "full_name": "Республика Сан-Марино",
+    "english": "San Marino",
+    "alpha2": "SM",
+    "alpha3": "SMR",
+    "iso": "674",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Rome": "Europe/Rome"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Rome"
+      ]
+    }
+  },
+  "678": {
+    "name": "Сан-Томе и Принсипи",
+    "full_name": "Демократическая Республика Сан-Томе и Принсипи",
+    "english": "Sao Tome and Principe",
+    "alpha2": "ST",
+    "alpha3": "STP",
+    "iso": "678",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "682": {
+    "name": "Саудовская Аравия",
+    "full_name": "Королевство Саудовская Аравия",
+    "english": "Saudi Arabia",
+    "alpha2": "SA",
+    "alpha3": "SAU",
+    "iso": "682",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Riyadh": "Asia/Riyadh"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Riyadh"
+      ]
+    }
+  },
+  "748": {
+    "name": "Свазиленд",
+    "full_name": "Королевство Свазиленд",
+    "english": "Swaziland",
+    "alpha2": "SZ",
+    "alpha3": "SWZ",
+    "iso": "748",
+    "location": "Африка",
+    "location_precise": "Южная часть Африки",
+    "time_zones": {
+      "Africa/Johannesburg": "Africa/Johannesburg"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Johannesburg"
+      ]
+    }
+  },
+  "654": {
+    "name": "Святая Елена, Остров вознесения, Тристан-да-Кунья",
+    "full_name": "",
+    "english": "Saint Helena, Ascension And Tristan Da Cunha",
+    "alpha2": "SH",
+    "alpha3": "SHN",
+    "iso": "654",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "580": {
+    "name": "Северные Марианские острова",
+    "full_name": "Содружество Северных Марианских островов",
+    "english": "Northern Mariana Islands",
+    "alpha2": "MP",
+    "alpha3": "MNP",
+    "iso": "580",
+    "location": "Океания",
+    "location_precise": "Микронезия",
+    "time_zones": {
+      "Pacific/Guam": "Pacific/Guam"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Guam"
+      ]
+    }
+  },
+  "652": {
+    "name": "Сен-Бартельми",
+    "full_name": "",
+    "english": "Saint Barthélemy",
+    "alpha2": "BL",
+    "alpha3": "BLM",
+    "iso": "652",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "663": {
+    "name": "Сен-Мартен",
+    "full_name": "",
+    "english": "Saint Martin (French Part)",
+    "alpha2": "MF",
+    "alpha3": "MAF",
+    "iso": "663",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "686": {
+    "name": "Сенегал",
+    "full_name": "Республика Сенегал",
+    "english": "Senegal",
+    "alpha2": "SN",
+    "alpha3": "SEN",
+    "iso": "686",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "670": {
+    "name": "Сент-Винсент и Гренадины",
+    "full_name": "",
+    "english": "Saint Vincent and the Grenadines",
+    "alpha2": "VC",
+    "alpha3": "VCT",
+    "iso": "670",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "662": {
+    "name": "Сент-Люсия",
+    "full_name": "",
+    "english": "Saint Lucia",
+    "alpha2": "LC",
+    "alpha3": "LCA",
+    "iso": "662",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "659": {
+    "name": "Сент-Китс и Невис",
+    "full_name": "",
+    "english": "Saint Kitts and Nevis",
+    "alpha2": "KN",
+    "alpha3": "KNA",
+    "iso": "659",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "666": {
+    "name": "Сент-Пьер и Микелон",
+    "full_name": "",
+    "english": "Saint Pierre and Miquelon",
+    "alpha2": "PM",
+    "alpha3": "SPM",
+    "iso": "666",
+    "location": "Америка",
+    "location_precise": "Северная Америка",
+    "time_zones": {
+      "America/Miquelon": "America/Miquelon"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Miquelon"
+      ]
+    }
+  },
+  "688": {
+    "name": "Сербия",
+    "full_name": "Республика Сербия",
+    "english": "Serbia",
+    "alpha2": "RS",
+    "alpha3": "SRB",
+    "iso": "688",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Belgrade": "Europe/Belgrade"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Belgrade"
+      ]
+    }
+  },
+  "690": {
+    "name": "Сейшелы",
+    "full_name": "Республика Сейшелы",
+    "english": "Seychelles",
+    "alpha2": "SC",
+    "alpha3": "SYC",
+    "iso": "690",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Indian/Mahe": "Indian/Mahe"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Mahe"
+      ]
+    }
+  },
+  "702": {
+    "name": "Сингапур",
+    "full_name": "Республика Сингапур",
+    "english": "Singapore",
+    "alpha2": "SG",
+    "alpha3": "SGP",
+    "iso": "702",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Singapore": "Asia/Singapore"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Singapore"
+      ]
+    }
+  },
+  "534": {
+    "name": "Синт-Мартен",
+    "full_name": "",
+    "english": "Sint Maarten",
+    "alpha2": "SX",
+    "alpha3": "SXM",
+    "iso": "534",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Curacao": "America/Curacao"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Curacao"
+      ]
+    }
+  },
+  "760": {
+    "name": "Сирийская Арабская Республика",
+    "full_name": "",
+    "english": "Syrian Arab Republic",
+    "alpha2": "SY",
+    "alpha3": "SYR",
+    "iso": "760",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Asia/Damascus": "Asia/Damascus"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Damascus"
+      ]
+    }
+  },
+  "703": {
+    "name": "Словакия",
+    "full_name": "Словацкая Республика",
+    "english": "Slovakia",
+    "alpha2": "SK",
+    "alpha3": "SVK",
+    "iso": "703",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Prague": "Europe/Prague"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Prague"
+      ]
+    }
+  },
+  "705": {
+    "name": "Словения",
+    "full_name": "Республика Словения",
+    "english": "Slovenia",
+    "alpha2": "SI",
+    "alpha3": "SVN",
+    "iso": "705",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Belgrade": "Europe/Belgrade"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Belgrade"
+      ]
+    }
+  },
+  "826": {
+    "name": "Соединенное Королевство",
+    "full_name": "Соединенное Королевство Великобритании и Северной Ирландии",
+    "english": "United Kingdom",
+    "alpha2": "GB",
+    "alpha3": "GBR",
+    "iso": "826",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/London": "Europe/London"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/London"
+      ]
+    }
+  },
+  "840": {
+    "name": "Соединенные Штаты",
+    "full_name": "Соединенные Штаты Америки",
+    "english": "United States",
+    "alpha2": "US",
+    "alpha3": "USA",
+    "iso": "840",
+    "location": "Америка",
+    "location_precise": "Северная Америка",
+    "time_zones": {
+      "America/New_York": "America/New_York",
+      "America/Detroit": "America/Detroit",
+      "America/Kentucky/Louisville": "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello": "America/Kentucky/Monticello",
+      "America/Indiana/Indianapolis": "America/Indiana/Indianapolis",
+      "America/Indiana/Vincennes": "America/Indiana/Vincennes",
+      "America/Indiana/Winamac": "America/Indiana/Winamac",
+      "America/Indiana/Marengo": "America/Indiana/Marengo",
+      "America/Indiana/Petersburg": "America/Indiana/Petersburg",
+      "America/Indiana/Vevay": "America/Indiana/Vevay",
+      "America/Chicago": "America/Chicago",
+      "America/Indiana/Tell_City": "America/Indiana/Tell_City",
+      "America/Indiana/Knox": "America/Indiana/Knox",
+      "America/Menominee": "America/Menominee",
+      "America/North_Dakota/Center": "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem": "America/North_Dakota/New_Salem",
+      "America/North_Dakota/Beulah": "America/North_Dakota/Beulah",
+      "America/Denver": "America/Denver",
+      "America/Boise": "America/Boise",
+      "America/Phoenix": "America/Phoenix",
+      "America/Los_Angeles": "America/Los_Angeles",
+      "America/Metlakatla": "America/Metlakatla",
+      "America/Anchorage": "America/Anchorage",
+      "America/Juneau": "America/Juneau",
+      "America/Sitka": "America/Sitka",
+      "America/Yakutat": "America/Yakutat",
+      "America/Nome": "America/Nome",
+      "America/Adak": "America/Adak",
+      "Pacific/Honolulu": "Pacific/Honolulu"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/New_York",
+        "America/Detroit",
+        "America/Kentucky/Louisville",
+        "America/Kentucky/Monticello",
+        "America/Indiana/Indianapolis",
+        "America/Indiana/Vincennes",
+        "America/Indiana/Winamac",
+        "America/Indiana/Marengo",
+        "America/Indiana/Petersburg",
+        "America/Indiana/Vevay",
+        "America/Chicago",
+        "America/Indiana/Tell_City",
+        "America/Indiana/Knox",
+        "America/Menominee",
+        "America/North_Dakota/Center",
+        "America/North_Dakota/New_Salem",
+        "America/North_Dakota/Beulah",
+        "America/Denver",
+        "America/Boise",
+        "America/Phoenix",
+        "America/Los_Angeles",
+        "America/Metlakatla",
+        "America/Anchorage",
+        "America/Juneau",
+        "America/Sitka",
+        "America/Yakutat",
+        "America/Nome",
+        "America/Adak",
+        "Pacific/Honolulu"
+      ]
+    }
+  },
+  "90": {
+    "name": "Соломоновы острова",
+    "full_name": "",
+    "english": "Solomon Islands",
+    "alpha2": "SB",
+    "alpha3": "SLB",
+    "iso": "090",
+    "location": "Океания",
+    "location_precise": "Меланезия",
+    "time_zones": {
+      "Pacific/Guadalcanal": "Pacific/Guadalcanal"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Guadalcanal"
+      ]
+    }
+  },
+  "706": {
+    "name": "Сомали",
+    "full_name": "Сомалийская Республика",
+    "english": "Somalia",
+    "alpha2": "SO",
+    "alpha3": "SOM",
+    "iso": "706",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "736": {
+    "name": "Судан",
+    "full_name": "Республика Судан",
+    "english": "Sudan",
+    "alpha2": "SD",
+    "alpha3": "SDN",
+    "iso": "736",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Khartoum": "Africa/Khartoum"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Khartoum"
+      ]
+    }
+  },
+  "740": {
+    "name": "Суринам",
+    "full_name": "Республика Суринам",
+    "english": "Suriname",
+    "alpha2": "SR",
+    "alpha3": "SUR",
+    "iso": "740",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Paramaribo": "America/Paramaribo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Paramaribo"
+      ]
+    }
+  },
+  "694": {
+    "name": "Сьерра-Леоне",
+    "full_name": "Республика Сьерра-Леоне",
+    "english": "Sierra Leone",
+    "alpha2": "SL",
+    "alpha3": "SLE",
+    "iso": "694",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "762": {
+    "name": "Таджикистан",
+    "full_name": "Республика Таджикистан",
+    "english": "Tajikistan",
+    "alpha2": "TJ",
+    "alpha3": "TJK",
+    "iso": "762",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Dushanbe": "Asia/Dushanbe"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Dushanbe"
+      ]
+    }
+  },
+  "764": {
+    "name": "Таиланд",
+    "full_name": "Королевство Таиланд",
+    "english": "Thailand",
+    "alpha2": "TH",
+    "alpha3": "THA",
+    "iso": "764",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Bangkok": "Asia/Bangkok"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Bangkok"
+      ]
+    }
+  },
+  "158": {
+    "name": "Тайвань (Китай)",
+    "full_name": "",
+    "english": "Taiwan, Province of China",
+    "alpha2": "TW",
+    "alpha3": "TWN",
+    "iso": "158",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Taipei": "Asia/Taipei"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Taipei"
+      ]
+    }
+  },
+  "834": {
+    "name": "Танзания, Объединенная Республика",
+    "full_name": "Объединенная Республика Танзания",
+    "english": "Tanzania, United Republic Of",
+    "alpha2": "TZ",
+    "alpha3": "TZA",
+    "iso": "834",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "626": {
+    "name": "Тимор-Лесте",
+    "full_name": "Демократическая Республика Тимор-Лесте",
+    "english": "Timor-Leste",
+    "alpha2": "TL",
+    "alpha3": "TLS",
+    "iso": "626",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Dili": "Asia/Dili"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Dili"
+      ]
+    }
+  },
+  "768": {
+    "name": "Того",
+    "full_name": "Тоголезская Республика",
+    "english": "Togo",
+    "alpha2": "TG",
+    "alpha3": "TGO",
+    "iso": "768",
+    "location": "Африка",
+    "location_precise": "Западная Африка",
+    "time_zones": {
+      "Africa/Abidjan": "Africa/Abidjan"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Abidjan"
+      ]
+    }
+  },
+  "772": {
+    "name": "Токелау",
+    "full_name": "",
+    "english": "Tokelau",
+    "alpha2": "TK",
+    "alpha3": "TKL",
+    "iso": "772",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Fakaofo": "Pacific/Fakaofo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Fakaofo"
+      ]
+    }
+  },
+  "776": {
+    "name": "Тонга",
+    "full_name": "Королевство Тонга",
+    "english": "Tonga",
+    "alpha2": "TO",
+    "alpha3": "TON",
+    "iso": "776",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Tongatapu": "Pacific/Tongatapu"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Tongatapu"
+      ]
+    }
+  },
+  "780": {
+    "name": "Тринидад и Тобаго",
+    "full_name": "Республика Тринидад и Тобаго",
+    "english": "Trinidad and Tobago",
+    "alpha2": "TT",
+    "alpha3": "TTO",
+    "iso": "780",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Port_of_Spain": "America/Port_of_Spain"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Port_of_Spain"
+      ]
+    }
+  },
+  "798": {
+    "name": "Тувалу",
+    "full_name": "",
+    "english": "Tuvalu",
+    "alpha2": "TV",
+    "alpha3": "TUV",
+    "iso": "798",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Funafuti": "Pacific/Funafuti"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Funafuti"
+      ]
+    }
+  },
+  "788": {
+    "name": "Тунис",
+    "full_name": "Тунисская Республика",
+    "english": "Tunisia",
+    "alpha2": "TN",
+    "alpha3": "TUN",
+    "iso": "788",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Tunis": "Africa/Tunis"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Tunis"
+      ]
+    }
+  },
+  "795": {
+    "name": "Туркмения",
+    "full_name": "Туркменистан",
+    "english": "Turkmenistan",
+    "alpha2": "TM",
+    "alpha3": "TKM",
+    "iso": "795",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Ashgabat": "Asia/Ashgabat"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Ashgabat"
+      ]
+    }
+  },
+  "792": {
+    "name": "Турция",
+    "full_name": "Турецкая Республика",
+    "english": "Turkey",
+    "alpha2": "TR",
+    "alpha3": "TUR",
+    "iso": "792",
+    "location": "Азия",
+    "location_precise": "Западная Азия",
+    "time_zones": {
+      "Europe/Istanbul": "Europe/Istanbul"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Istanbul"
+      ]
+    }
+  },
+  "800": {
+    "name": "Уганда",
+    "full_name": "Республика Уганда",
+    "english": "Uganda",
+    "alpha2": "UG",
+    "alpha3": "UGA",
+    "iso": "800",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "860": {
+    "name": "Узбекистан",
+    "full_name": "Республика Узбекистан",
+    "english": "Uzbekistan",
+    "alpha2": "UZ",
+    "alpha3": "UZB",
+    "iso": "860",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Samarkand": "Asia/Samarkand",
+      "Asia/Tashkent": "Asia/Tashkent"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Samarkand",
+        "Asia/Tashkent"
+      ]
+    }
+  },
+  "804": {
+    "name": "Украина",
+    "full_name": "",
+    "english": "Ukraine",
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "iso": "804",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Kiev": "Europe/Kiev",
+      "Europe/Uzhgorod": "Europe/Uzhgorod",
+      "Europe/Zaporozhye": "Europe/Zaporozhye"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Kiev",
+        "Europe/Uzhgorod",
+        "Europe/Zaporozhye"
+      ]
+    }
+  },
+  "876": {
+    "name": "Уоллис и Футуна",
+    "full_name": "",
+    "english": "Wallis and Futuna",
+    "alpha2": "WF",
+    "alpha3": "WLF",
+    "iso": "876",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Wallis": "Pacific/Wallis"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Wallis"
+      ]
+    }
+  },
+  "858": {
+    "name": "Уругвай",
+    "full_name": "Восточная Республика Уругвай",
+    "english": "Uruguay",
+    "alpha2": "UY",
+    "alpha3": "URY",
+    "iso": "858",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Montevideo": "America/Montevideo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Montevideo"
+      ]
+    }
+  },
+  "234": {
+    "name": "Фарерские острова",
+    "full_name": "",
+    "english": "Faroe Islands",
+    "alpha2": "FO",
+    "alpha3": "FRO",
+    "iso": "234",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Atlantic/Faroe": "Atlantic/Faroe"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Atlantic/Faroe"
+      ]
+    }
+  },
+  "242": {
+    "name": "Фиджи",
+    "full_name": "Республика островов Фиджи",
+    "english": "Fiji",
+    "alpha2": "FJ",
+    "alpha3": "FJI",
+    "iso": "242",
+    "location": "Океания",
+    "location_precise": "Меланезия",
+    "time_zones": {
+      "Pacific/Fiji": "Pacific/Fiji"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Fiji"
+      ]
+    }
+  },
+  "608": {
+    "name": "Филиппины",
+    "full_name": "Республика Филиппины",
+    "english": "Philippines",
+    "alpha2": "PH",
+    "alpha3": "PHL",
+    "iso": "608",
+    "location": "Азия",
+    "location_precise": "Юго-Восточная Азия",
+    "time_zones": {
+      "Asia/Manila": "Asia/Manila"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Manila"
+      ]
+    }
+  },
+  "246": {
+    "name": "Финляндия",
+    "full_name": "Финляндская Республика",
+    "english": "Finland",
+    "alpha2": "FI",
+    "alpha3": "FIN",
+    "iso": "246",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Helsinki": "Europe/Helsinki"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Helsinki"
+      ]
+    }
+  },
+  "238": {
+    "name": "Фолклендские острова (Мальвинские)",
+    "full_name": "",
+    "english": "Falkland Islands (Malvinas)",
+    "alpha2": "FK",
+    "alpha3": "FLK",
+    "iso": "238",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "Atlantic/Stanley": "Atlantic/Stanley"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Atlantic/Stanley"
+      ]
+    }
+  },
+  "250": {
+    "name": "Франция",
+    "full_name": "Французская Республика",
+    "english": "France",
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "iso": "250",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Paris": "Europe/Paris"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Paris"
+      ]
+    }
+  },
+  "254": {
+    "name": "Французская Гвиана",
+    "full_name": "",
+    "english": "French Guiana",
+    "alpha2": "GF",
+    "alpha3": "GUF",
+    "iso": "254",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Cayenne": "America/Cayenne"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Cayenne"
+      ]
+    }
+  },
+  "258": {
+    "name": "Французская Полинезия",
+    "full_name": "",
+    "english": "French Polynesia",
+    "alpha2": "PF",
+    "alpha3": "PYF",
+    "iso": "258",
+    "location": "Океания",
+    "location_precise": "Полинезия",
+    "time_zones": {
+      "Pacific/Tahiti": "Pacific/Tahiti",
+      "Pacific/Marquesas": "Pacific/Marquesas",
+      "Pacific/Gambier": "Pacific/Gambier"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Pacific/Tahiti",
+        "Pacific/Marquesas",
+        "Pacific/Gambier"
+      ]
+    }
+  },
+  "260": {
+    "name": "Французские Южные территории",
+    "full_name": "",
+    "english": "French Southern Territories",
+    "alpha2": "TF",
+    "alpha3": "ATF",
+    "iso": "260",
+    "location": "",
+    "location_precise": "Индийский океан",
+    "time_zones": {
+      "Indian/Kerguelen": "Indian/Kerguelen",
+      "Indian/Reunion": "Indian/Reunion"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Indian/Kerguelen",
+        "Indian/Reunion"
+      ]
+    }
+  },
+  "191": {
+    "name": "Хорватия",
+    "full_name": "Республика Хорватия",
+    "english": "Croatia",
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "iso": "191",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Belgrade": "Europe/Belgrade"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Belgrade"
+      ]
+    }
+  },
+  "140": {
+    "name": "Центрально-Африканская Республика",
+    "full_name": "",
+    "english": "Central African Republic",
+    "alpha2": "CF",
+    "alpha3": "CAF",
+    "iso": "140",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "148": {
+    "name": "Чад",
+    "full_name": "Республика Чад",
+    "english": "Chad",
+    "alpha2": "TD",
+    "alpha3": "TCD",
+    "iso": "148",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Ndjamena": "Africa/Ndjamena"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Ndjamena"
+      ]
+    }
+  },
+  "499": {
+    "name": "Черногория",
+    "full_name": "Республика Черногория",
+    "english": "Montenegro",
+    "alpha2": "ME",
+    "alpha3": "MNE",
+    "iso": "499",
+    "location": "Европа",
+    "location_precise": "Южная Европа",
+    "time_zones": {
+      "Europe/Belgrade": "Europe/Belgrade"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Belgrade"
+      ]
+    }
+  },
+  "203": {
+    "name": "Чешская Республика",
+    "full_name": "",
+    "english": "Czech Republic",
+    "alpha2": "CZ",
+    "alpha3": "CZE",
+    "iso": "203",
+    "location": "Европа",
+    "location_precise": "Восточная Европа",
+    "time_zones": {
+      "Europe/Prague": "Europe/Prague"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Prague"
+      ]
+    }
+  },
+  "152": {
+    "name": "Чили",
+    "full_name": "Республика Чили",
+    "english": "Chile",
+    "alpha2": "CL",
+    "alpha3": "CHL",
+    "iso": "152",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Santiago": "America/Santiago",
+      "Pacific/Easter": "Pacific/Easter"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Santiago",
+        "Pacific/Easter"
+      ]
+    }
+  },
+  "756": {
+    "name": "Швейцария",
+    "full_name": "Швейцарская Конфедерация",
+    "english": "Switzerland",
+    "alpha2": "CH",
+    "alpha3": "CHE",
+    "iso": "756",
+    "location": "Европа",
+    "location_precise": "Западная Европа",
+    "time_zones": {
+      "Europe/Zurich": "Europe/Zurich"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Zurich"
+      ]
+    }
+  },
+  "752": {
+    "name": "Швеция",
+    "full_name": "Королевство Швеция",
+    "english": "Sweden",
+    "alpha2": "SE",
+    "alpha3": "SWE",
+    "iso": "752",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Stockholm": "Europe/Stockholm"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Stockholm"
+      ]
+    }
+  },
+  "744": {
+    "name": "Шпицберген и Ян Майен",
+    "full_name": "",
+    "english": "Svalbard and Jan Mayen",
+    "alpha2": "SJ",
+    "alpha3": "SJM",
+    "iso": "744",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Oslo": "Europe/Oslo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Oslo"
+      ]
+    }
+  },
+  "144": {
+    "name": "Шри-Ланка",
+    "full_name": "Демократическая Социалистическая Республика Шри-Ланка",
+    "english": "Sri Lanka",
+    "alpha2": "LK",
+    "alpha3": "LKA",
+    "iso": "144",
+    "location": "Азия",
+    "location_precise": "Южная часть Центральной Азии",
+    "time_zones": {
+      "Asia/Colombo": "Asia/Colombo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Colombo"
+      ]
+    }
+  },
+  "218": {
+    "name": "Эквадор",
+    "full_name": "Республика Эквадор",
+    "english": "Ecuador",
+    "alpha2": "EC",
+    "alpha3": "ECU",
+    "iso": "218",
+    "location": "Америка",
+    "location_precise": "Южная Америка",
+    "time_zones": {
+      "America/Guayaquil": "America/Guayaquil",
+      "Pacific/Galapagos": "Pacific/Galapagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Guayaquil",
+        "Pacific/Galapagos"
+      ]
+    }
+  },
+  "226": {
+    "name": "Экваториальная Гвинея",
+    "full_name": "Республика Экваториальная Гвинея",
+    "english": "Equatorial Guinea",
+    "alpha2": "GQ",
+    "alpha3": "GNQ",
+    "iso": "226",
+    "location": "Африка",
+    "location_precise": "Центральная Африка",
+    "time_zones": {
+      "Africa/Lagos": "Africa/Lagos"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Lagos"
+      ]
+    }
+  },
+  "248": {
+    "name": "Эландские острова",
+    "full_name": "",
+    "english": "Åland Islands",
+    "alpha2": "AX",
+    "alpha3": "ALA",
+    "iso": "248",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Helsinki": "Europe/Helsinki"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Helsinki"
+      ]
+    }
+  },
+  "222": {
+    "name": "Эль-Сальвадор",
+    "full_name": "Республика Эль-Сальвадор",
+    "english": "El Salvador",
+    "alpha2": "SV",
+    "alpha3": "SLV",
+    "iso": "222",
+    "location": "Америка",
+    "location_precise": "Центральная Америка",
+    "time_zones": {
+      "America/El_Salvador": "America/El_Salvador"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/El_Salvador"
+      ]
+    }
+  },
+  "232": {
+    "name": "Эритрея",
+    "full_name": "",
+    "english": "Eritrea",
+    "alpha2": "ER",
+    "alpha3": "ERI",
+    "iso": "232",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "233": {
+    "name": "Эстония",
+    "full_name": "Эстонская Республика",
+    "english": "Estonia",
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "iso": "233",
+    "location": "Европа",
+    "location_precise": "Северная Европа",
+    "time_zones": {
+      "Europe/Tallinn": "Europe/Tallinn"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Tallinn"
+      ]
+    }
+  },
+  "231": {
+    "name": "Эфиопия",
+    "full_name": "Федеративная Демократическая Республика Эфиопия",
+    "english": "Ethiopia",
+    "alpha2": "ET",
+    "alpha3": "ETH",
+    "iso": "231",
+    "location": "Африка",
+    "location_precise": "Восточная Африка",
+    "time_zones": {
+      "Africa/Nairobi": "Africa/Nairobi"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Nairobi"
+      ]
+    }
+  },
+  "710": {
+    "name": "Южная Африка",
+    "full_name": "Южно-Африканская Республика",
+    "english": "South Africa",
+    "alpha2": "ZA",
+    "alpha3": "ZAF",
+    "iso": "710",
+    "location": "Африка",
+    "location_precise": "Южная часть Африки",
+    "time_zones": {
+      "Africa/Johannesburg": "Africa/Johannesburg"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Johannesburg"
+      ]
+    }
+  },
+  "239": {
+    "name": "Южная Джорджия и Южные Сандвичевы острова",
+    "full_name": "",
+    "english": "South Georgia and the South Sandwich Islands",
+    "alpha2": "GS",
+    "alpha3": "SGS",
+    "iso": "239",
+    "location": "",
+    "location_precise": "Южный океан",
+    "time_zones": {
+      "Atlantic/South_Georgia": "Atlantic/South_Georgia"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Atlantic/South_Georgia"
+      ]
+    }
+  },
+  "896": {
+    "name": "Южная Осетия",
+    "full_name": "Республика Южная Осетия",
+    "english": "South Ossetia",
+    "alpha2": "OS",
+    "alpha3": "OST",
+    "iso": "896",
+    "location": "Азия",
+    "location_precise": "Закавказье",
+    "time_zones": {
+      "Europe/Moscow": "Москва (MSK)"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Europe/Moscow"
+      ]
+    }
+  },
+  "728": {
+    "name": "Южный Судан",
+    "full_name": "",
+    "english": "South Sudan",
+    "alpha2": "SS",
+    "alpha3": "SSD",
+    "iso": "728",
+    "location": "Африка",
+    "location_precise": "Северная Африка",
+    "time_zones": {
+      "Africa/Khartoum": "Africa/Khartoum"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Africa/Khartoum"
+      ]
+    }
+  },
+  "388": {
+    "name": "Ямайка",
+    "full_name": "",
+    "english": "Jamaica",
+    "alpha2": "JM",
+    "alpha3": "JAM",
+    "iso": "388",
+    "location": "Америка",
+    "location_precise": "Карибский бассейн",
+    "time_zones": {
+      "America/Jamaica": "America/Jamaica"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "America/Jamaica"
+      ]
+    }
+  },
+  "392": {
+    "name": "Япония",
+    "full_name": "",
+    "english": "Japan",
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "iso": "392",
+    "location": "Азия",
+    "location_precise": "Восточная Азия",
+    "time_zones": {
+      "Asia/Tokyo": "Asia/Tokyo"
+    },
+    "regions": {
+      "0": "не указан"
+    },
+    "region_timezones": {
+      "0": [
+        "Asia/Tokyo"
+      ]
+    }
+  }
+}

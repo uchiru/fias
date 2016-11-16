@@ -10,6 +10,7 @@ module Fias
     def create_migration_file
       add_fias_migration("create_fias_regions")
       add_fias_migration("create_fias_cities")
+      add_fias_migration("create_fias_countries")
     end
 
     def self.next_migration_number(dirname)
