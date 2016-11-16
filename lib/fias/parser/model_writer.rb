@@ -38,14 +38,14 @@ module Fias::Parser
               Fias::Region.transaction do
                 @model = Fias::Region
                 arr.each do |obj|
-                  yield(obj)
+                  yield(obj.clone)
                 end
               end
               if group == :both
                 Fias::City.transaction do
                   @model = Fias::City
                   arr.each do |obj|
-                    yield(obj)
+                    yield(obj.clone)
                   end
                 end
               end
@@ -53,7 +53,7 @@ module Fias::Parser
               Fias::City.transaction do
                 @model = Fias::City
                 arr.each do |obj|
-                  yield(obj)
+                  yield(obj.clone)
                 end
               end
             end
@@ -66,18 +66,20 @@ module Fias::Parser
 
     def fork_and_write
       fork_and_iterate(@main_queue) do |attributes|
-        next if attributes['aolevel'].to_i > 6
-        create_or_update_object(attributes)
+        next if attributes['level'].to_i > 6 || attributes['live_status'].to_i == 0
+        create_or_update_object(attributes.clone)
       end
 
       @main_queue = []
     end
 
     def create_or_update_object(attributes)
-      if attributes[:models_level] == :both
-        attributes[:is_city] = true
-      elsif attributes[:models_level] == :region
-        attributes[:is_city] = false
+      if @model == Fias::Region
+        if attributes[:models_level] == :both
+          attributes[:is_city] = true
+        elsif attributes[:models_level] == :region
+          attributes[:is_city] = false
+        end
       end
       attributes.delete(:models_level)
       search_hash = { @current_primary_key => attributes[@current_primary_key] }
@@ -130,9 +132,9 @@ module Fias::Parser
       rules.each do |fias_attr, model_attr|
         @current_attributes[model_attr.to_s] = attrs_h[fias_attr.to_s.upcase]
       end
-      if attrs_h["AOLEVEL"] == "1" && attrs_h["SHORTNAME"] == "г"
+      if @current_attributes["level"] == "1" && @current_attributes["short_name"] == "г"
         @current_attributes[:models_level] = :both
-      elsif attrs_h["AOLEVEL"] == "1" && attrs_h["SHORTNAME"] != "г"
+      elsif @current_attributes["level"] == "1" && @current_attributes["short_name"] != "г"
         @current_attributes[:models_level] = :region
       else
         @current_attributes[:models_level] = :city
@@ -145,8 +147,11 @@ module Fias::Parser
     end
 
     def write_attributes
-      if @main_queue.length < 2500
-        @main_queue.push(@current_attributes)
+      if @main_queue.length < QUEUE_LENGTH_FOR_FORK
+        if @current_attributes
+          @main_queue.push(@current_attributes)
+          @current_attributes = nil
+        end
       else
         fork_and_write
       end
