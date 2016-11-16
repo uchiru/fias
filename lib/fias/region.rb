@@ -12,7 +12,7 @@ class Fias::Region < ActiveRecord::Base
       I18n.t "fias_regions.region", name: official_name
     when "АО"
       official_name.in?("Югра") ?
-        self.official_name : I18n.t("fias_regions.ao", name: official_name)
+        official_name : I18n.t("fias_regions.ao", name: official_name)
     when "Аобл"
       I18n.t "fias_regions.aobl", name: official_name
     when "край"
