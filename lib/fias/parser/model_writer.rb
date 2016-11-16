@@ -1,8 +1,10 @@
+require 'activerecord-import/base'
+
 module Fias::Parser
   class ModelWriter
     attr_reader :model, :current_attributes
 
-    QUEUE_LENGTH_FOR_FORK = 4000
+    QUEUE_LENGTH_FOR_FORK = 40000
     QUEUE_PARTS = 4
 
     QUEUE_COUNT_IN_PART = QUEUE_LENGTH_FOR_FORK / QUEUE_PARTS
@@ -37,24 +39,27 @@ module Fias::Parser
             if group.in? [:both, :region]
               Fias::Region.transaction do
                 @model = Fias::Region
-                arr.each do |obj|
+                regions = arr.map do |obj|
                   yield(obj.clone)
-                end
+                end.compact
+                Fias::Region.import regions, validate: false
               end
               if group == :both
                 Fias::City.transaction do
                   @model = Fias::City
-                  arr.each do |obj|
+                  cities = arr.map do |obj|
                     yield(obj.clone)
-                  end
+                  end.compact
+                  Fias::City.import cities, validate: false
                 end
               end
             else
               Fias::City.transaction do
                 @model = Fias::City
-                arr.each do |obj|
+                cities = arr.map do |obj|
                   yield(obj.clone)
-                end
+                end.compact
+                Fias::City.import cities, validate: false
               end
             end
           end
@@ -87,20 +92,8 @@ module Fias::Parser
 
       if model_object.persisted?
         model_object.attributes = attributes
-        changes = model_object.changes
-
-        if model_object.save
-          @updated_count += 1
-          @logger.info("Updated #{model}, #{model_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
-        else
-          @failed_count += 1
-          @logger.error("Failed to update #{model}, #{model_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
-        end
-      else
-        model_object.save!
-        @created_count += 1
-        @logger.info("Created new #{model}: #{@current_primary_key}: #{attributes[@current_primary_key]}")
       end
+      model_object
     rescue Exception => e
       @logger.error( <<-ERROR_DESC.strip_heredoc
         Failed in #{@model},
@@ -110,6 +103,7 @@ module Fias::Parser
        ERROR_DESC
        )
       @failed_count += 1
+      nil
     end
 
     def formated_changes(changes)
