@@ -76,29 +76,38 @@ module Fias::Parser
     def create_or_update_object(attributes)
       if attributes[:models_level] == :both
         attributes[:is_city] = true
+      elsif attributes[:models_level] == :region
+        attributes[:is_city] = false
       end
       attributes.delete(:models_level)
+      search_hash = { @current_primary_key => attributes[@current_primary_key] }
+      model_object = (@model.unscoped.find_by(search_hash) || @model.new(attributes))
 
-      if updating_object = (@model.unscoped.find(attributes[@current_primary_key]) rescue nil)
-        updating_object.attributes = attributes
-        changes = updating_object.changes
+      if model_object.persisted?
+        model_object.attributes = attributes
+        changes = model_object.changes
 
-        if updating_object.save
+        if model_object.save
           @updated_count += 1
-          @logger.info("Updated #{model}, #{updating_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
+          @logger.info("Updated #{model}, #{model_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
         else
           @failed_count += 1
-          @logger.error("Failed to update #{model}, #{updating_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
+          @logger.error("Failed to update #{model}, #{model_object.send(@current_primary_key)}, changes: #{formated_changes(changes).join}")
         end
       else
-        @model.create(attributes)
+        model_object.save!
         @created_count += 1
         @logger.info("Created new #{model}: #{@current_primary_key}: #{attributes[@current_primary_key]}")
       end
     rescue Exception => e
-      @logger.error("Error in #{@model}, #{@current_primary_key}: #{attributes[@current_primary_key]}, #{e.message}")
+      @logger.error( <<-ERROR_DESC.strip_heredoc
+        Failed in #{@model},
+         #{@current_primary_key}: #{attributes[@current_primary_key]},
+         attributes: #{attributes.inspect}
+         error: #{e.message}
+       ERROR_DESC
+       )
       @failed_count += 1
-      @logger.error("Failed in #{@model}, on #{@current_primary_key}: #{attributes[@current_primary_key]}, attributes: #{attributes.inspect}")
     end
 
     def formated_changes(changes)
