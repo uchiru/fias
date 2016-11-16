@@ -1,0 +1,7 @@
+ru:
+  fias_regions:
+    republic: "Республика %{name}"
+    region: "%{name} область"
+    aobl: "%{name} автономная область"
+    ao: "%{name} автономный округ"
+    edge: "%{name} край"
