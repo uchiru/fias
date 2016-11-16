@@ -1,14 +1,15 @@
 class Fias::Country < ActiveRecord::Base
-  self.table_name = "fias_countries"
+  self.table_name = 'fias_countries'
+  self.primary_key = 'iso'
 
   def self.import
     data_path = File.join( File.dirname(__FILE__), 'data/countries.json' )
 
     data = JSON.parse(IO.read(data_path))
     progress = ProgressBar.new("Countries", data.count)
-    data.each_with_index.map do |(id, options), index|
+    data.each_with_index.map do |(_id, options), index|
       self.create(
-        id: id,
+        iso: options['iso'],
         name: options['name'],
         full_name: options['full_name'],
         name: options['name'],

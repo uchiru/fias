@@ -1,7 +1,7 @@
 class CreateFiasCountries < ActiveRecord::Migration
   def change
     create_table :fias_countries, id: false do |f|
-      f.string :id
+      f.string :iso
       f.string :name
       f.string :full_name
       f.string :location
