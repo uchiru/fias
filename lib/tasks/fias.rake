@@ -16,7 +16,7 @@ namespace :fias do
       puts 'File is not specified, searching in the Internet'
       file = download()
     end
-    import(extract(file))
+    import_fias(extract_fias(file))
   end
 
   # desc 'Retrieve last actual xml from official site and parse addrobjs and houses into db'

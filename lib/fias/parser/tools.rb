@@ -52,10 +52,9 @@ module Fias::Parser::Tools
 
   # Extract FIAS database from archive
   #
-  def extract(path)
+  def extract_fias(path)
     dir = File.dirname(path)
     selectors = {fias_addrobj: /AS_ADDROBJ_/}
-
     # get filename to extract only one file.
     as_addrobj_filename = `unrar l #{path}`.split("\n").select {|row| row =~ /AS_ADDROBJ/}.first.split(' ').last
     unrar_output = `unrar e #{path} #{as_addrobj_filename} #{dir}`
@@ -77,7 +76,7 @@ module Fias::Parser::Tools
 
   # Parse extracted FIAS database and import it into project
   #
-  def import(result)
+  def import_fias(result)
     handle_model_parsing(result, Fias::Parser::ModelWriter)
   end
 
