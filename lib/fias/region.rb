@@ -2,6 +2,8 @@ class Fias::Region < ActiveRecord::Base
   self.table_name = "fias_regions"
   self.primary_key = "guid"
 
+  belongs_to :country
+
   def pretty_name
     case short_name.strip
     when "Чувашия"

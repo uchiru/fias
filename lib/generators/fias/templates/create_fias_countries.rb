@@ -1,14 +1,17 @@
 class CreateFiasCountries < ActiveRecord::Migration
   def change
-    create_table :fias_countries, id: false do |f|
-      f.string :iso
-      f.string :name
-      f.string :full_name
-      f.string :location
-      f.string :alpha2
-      f.string :alpha3
+    create_table :fias_countries, id: false do |t|
+      t.string :iso
+      t.string :name
+      t.string :full_name
+      t.string :location
+      t.string :alpha2
+      t.string :alpha3
+      t.json :regions_list
+      t.json :time_zones
+      t.json :region_time_zones
 
-      f.timestamps
+      t.timestamps
     end
   end
 end

@@ -10,6 +10,7 @@ class CreateFiasRegions < ActiveRecord::Migration
       f.boolean :is_city
       f.string :level
       f.string :live_status
+      f.string :country_id
 
       f.timestamps
     end

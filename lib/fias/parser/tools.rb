@@ -77,8 +77,8 @@ module Fias::Parser::Tools
   # Parse extracted FIAS database and import it into project
   #
   def import_fias(result)
-    Fias::Country.import
     handle_model_parsing(result, Fias::Parser::ModelWriter)
+    Fias::Country.import
   end
 
   def handle_model_parsing(parameters, model_handler)
