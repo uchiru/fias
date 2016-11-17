@@ -114,7 +114,7 @@ module Fias::Parser
       attrs_h = attrs.to_h
       @current_attributes = {}
       rules = {
-        aoid: :id,
+        aoid: :aoid,
         aoguid: :guid,
         formalname: :formal_name,
         shortname: :short_name,
