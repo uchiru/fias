@@ -4,6 +4,8 @@ class Fias::Region < ActiveRecord::Base
 
   belongs_to :country
 
+  has_many :cities, foreign_key: 'region_code', primary_key: 'region_code'
+
   def pretty_name
     case short_name.strip
     when "Чувашия"
