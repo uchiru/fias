@@ -26,7 +26,7 @@ class Fias::Country < ActiveRecord::Base
           time_zones: options['time_zones'],
           region_time_zones: options['region_timezones']
         )
-        Fias::Region.where(region_code: country.regions_list.map(&:first)).update_all(country_id: country.id)
+        Fias::Region.where(region_code: country.regions_list.keys).update_all(country_id: country.id)
       end
       progress.set(index + 1)
     end
