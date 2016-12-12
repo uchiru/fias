@@ -31,6 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rake', '>= 10.0'
   spec.add_runtime_dependency 'savon', '~> 2.11'
   spec.add_runtime_dependency 'progressbar', '~> 0.21'
-  spec.add_runtime_dependency 'rails', '4.1.8'
+  spec.add_runtime_dependency 'rails', '~> 4.1.8'
   spec.add_runtime_dependency 'activerecord-import', '>= 0.11.0'
 end
