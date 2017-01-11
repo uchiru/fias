@@ -7,4 +7,8 @@ class Fias::City < ActiveRecord::Base
   def pretty_name
     "#{short_name} #{formal_name}"
   end
+
+  def self.moscow
+    find_by(region_code: '77', formal_name: 'Москва')
+  end
 end

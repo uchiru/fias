@@ -32,4 +32,8 @@ class Fias::Country < ActiveRecord::Base
     end
     progress.finish
   end
+
+  def self.russia
+    Fias::Country.find('643')
+  end
 end
